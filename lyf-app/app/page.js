@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useGlobalContext } from "./Context/store";
+import Searchbar from "@/components/Searchbar";
 
 export default function Home() {
   // const {account, getAvailableInsuranceClaims, isLoading, setIsLoading, availableClaims, claimInsurance,
@@ -8,8 +9,8 @@ export default function Home() {
   // } = useGlobalContext()
 
   return (
-    <div>
-      <div>searchbar</div>
+    <div className="w-full">
+      <Searchbar />
       <div>
         <div>upcoming events section</div>
         <div>blogs</div>
