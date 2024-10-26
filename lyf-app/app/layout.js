@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { AppProvider } from "./Context/store";
 import Navbar from "@/components/Navbar";
 import SizeChecker from "./minimumScreen/SizeChecker";
+import Chatbot from "@/components/Chatbot/components/Chatbot";
 
 export const metadata = {
   title: "Lyf App",
