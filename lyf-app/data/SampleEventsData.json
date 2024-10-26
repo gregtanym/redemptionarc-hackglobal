@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Network with fellow residents",
+        "datetime": "2024-11-18T00:00:00",
+        "img": "",
+        "description": "",
+        "admission_fee": "",
+        "venue": "Lyf Funan Space 1",
+        "participant_ids": []
+    },
+    {
+        "title": "Wine tasting",
+        "datetime": "2024-11-23T00:00:00",
+        "img": "",
+        "description": "",
+        "admission_fee": "",
+        "venue": "Lyf Funan Space 1",
+        "participant_ids": []
+    },
+    {
+        "title": "Get to know more about Lyf",
+        "datetime": "2024-12-10T00:00:00",
+        "img": "",
+        "description": "",
+        "admission_fee": "",
+        "venue": "Lyf Funan Space 1",
+        "participant_ids": []
+    }
+]

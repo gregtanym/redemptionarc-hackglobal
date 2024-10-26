@@ -9,7 +9,9 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
-  			'navbar-inactive': '#7C7C7C',
+  			"navbar-inactive": "#7C7C7C",
+        "date-card-bg": "#F7F7F7",
+        "date-card-border": "#C2C2C2",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -52,7 +54,7 @@ module.exports = {
   			}
   		},
   		boxShadow: {
-  			'shadow-strong': '0 4px 8px rgba(0, 0, 0, 0.6)'
+  			"shadow-strong": "0 4px 8px rgba(0, 0, 0, 0.6)",
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
