@@ -15,8 +15,11 @@ export default function RootLayout({ children }) {
         <AppProvider>
           <SizeChecker>
             <div className="main">
-              {children}
-              <div>chatbot</div>
+              <div className="pb-28">
+                {children}
+              </div>
+
+              {/*<div>chatbot</div>*/}
               <Navbar />
             </div>
           </SizeChecker>

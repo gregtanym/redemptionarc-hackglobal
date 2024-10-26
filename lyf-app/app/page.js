@@ -1,6 +1,4 @@
-import Image from "next/image";
-import { useGlobalContext } from "./Context/store";
-import DiscoverHeader from "@/components/DiscoverHeader";
+import DiscoverHeader from "@/components/discover/DiscoverHeader";
 import UpcomingEventsSection from "@/components/UpcomingEventsSection";
 import BlogsSection from "@/components/BlogsSection";
 
@@ -13,7 +11,7 @@ export default function Home() {
   return (
     <div className="w-full flex flex-col items-center">
       <DiscoverHeader />
-      <div className="mt-5 w-11/12">
+      <div>
         <UpcomingEventsSection />
         <BlogsSection />
       </div>

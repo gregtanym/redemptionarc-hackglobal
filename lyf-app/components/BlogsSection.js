@@ -5,13 +5,13 @@ import Image from "next/image";
 
 const BlogsSection = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex justify-between items-center w-full mb-3">
-        <div className="text-2xl font-bold">Blogs</div>
-        <div className="underline cursor-pointer">See all</div>
-      </div>
-      <div className="w-full flex flex-col">
-        {blogData.map((blog, index) => {
+    <div className="flex flex-col items-center mx-4">
+        <div className="flex justify-between items-center w-full mb-3">
+            <h1 className="font-bold text-xl">Blogs</h1>
+            <div className="underline cursor-pointer">See all</div>
+        </div>
+        <div className="w-full flex flex-col">
+            {blogData.map((blog, index) => {
           return (
             <div
               className="w-full h-32 mb-4 flex justify-between rounded-2xl transition-colors duration-300 ease-in-out hover:bg-black/70 hover:text-white group cursor-pointer"

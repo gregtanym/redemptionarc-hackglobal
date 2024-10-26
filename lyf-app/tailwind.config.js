@@ -9,9 +9,9 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
-  			"navbar-inactive": "#7C7C7C",
-        "date-card-bg": "#F7F7F7",
-        "date-card-border": "#C2C2C2",
+  			'navbar-inactive': '#7C7C7C',
+  			'date-card-bg': '#F7F7F7',
+  			'date-card-border': '#C2C2C2',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -54,12 +54,15 @@ module.exports = {
   			}
   		},
   		boxShadow: {
-  			"shadow-strong": "0 4px 8px rgba(0, 0, 0, 0.6)",
+  			'shadow-strong': '0 4px 8px rgba(0, 0, 0, 0.6)'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		fontFamily: {
+  			manrope: ['Manrope']
   		}
   	}
   },

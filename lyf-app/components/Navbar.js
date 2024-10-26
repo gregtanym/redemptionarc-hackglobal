@@ -19,7 +19,7 @@ const Navbar = () => {
   const isStartsWith = (pathname) => pathName.startsWith(pathname);
 
   return (
-    <div className="fixed left-0 bottom-0 w-full rounded-full bg-black opacity-85 h-16 flex items-center px-6">
+    <div className="mb-4 fixed left-0 bottom-0 w-full rounded-full bg-black opacity-85 h-20 flex items-center px-6">
       <div className="flex justify-around items-center w-full">
         <Link href="/">
           <div
