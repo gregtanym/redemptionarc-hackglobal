@@ -2,22 +2,22 @@
 
 import { usePathname } from "next/navigation";
 import {useEffect, useState} from "react";
+import EventPageHeader from "@/components/eventPage/EventPageHeader";
 
 export default function EventCategoryPage() {
-  const pathname = usePathname();
-  const [category, setCategory] = useState(null);
+    const pathname = usePathname();
+    const [category, setCategory] = useState("");
 
-  const extractedCat = pathname.split('/').pop();
+    const extractedCat = pathname.split('/').pop(); // Extracts the last segment as a string
 
     useEffect(() => {
-        setCategory(extractedCat);
+        setCategory(extractedCat); // This should be a string
     }, [extractedCat]);
 
-  return (
-      <div className="p-4">
-        <h1 className="text-2xl font-bold">{category} Event</h1>
-        <p>Details about the {category} event go here.</p>
-
-      </div>
-  );
+    return (
+        <div>
+            <EventPageHeader category={category} />
+        </div>
+    );
 }
+
