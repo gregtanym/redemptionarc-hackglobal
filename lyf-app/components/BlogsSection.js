@@ -14,19 +14,19 @@ const BlogsSection = () => {
             {blogData.map((blog, index) => {
           return (
             <div
-              className="w-full h-32 mb-4 flex justify-between rounded-2xl transition-colors duration-300 ease-in-out hover:bg-black/70 hover:text-white group cursor-pointer"
+              className="w-full h-28 mb-4 flex justify-between rounded-2xl transition-colors duration-300 ease-in-out hover:bg-black/70 hover:text-white group cursor-pointer"
               key={index}
             >
               <Image
-                src={"/images/room1.png"}
+                src={blog.img}
                 alt="event-img"
                 height={180}
-                width={180}
+                width={170}
                 className="rounded-2xl mr-4"
               />
               <div className="h-full flex-grow flex flex-col justify-center transition-transform duration-300 ease-in-out group-hover:scale-90">
-                <div className="font-semibold">{blog.title}</div>
-                <div className="">{blog.description}</div>
+                <div className="font-bold text-sm">{blog.title}</div>
+                <div className="text-xs mt-1">{blog.description}</div>
               </div>
             </div>
           );
