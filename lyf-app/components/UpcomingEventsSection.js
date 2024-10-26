@@ -8,7 +8,7 @@ const UpcomingEventsSection = () => {
     <div className="flex flex-col items-center">
       <div className="flex justify-between items-center w-full mb-3">
         <div className="text-2xl font-bold">My upcoming Events</div>
-        <div className="underline">See all</div>
+        <div className="underline cursor-pointer">See all</div>
       </div>
       <div className="w-full">
         {eventData.map((event, index) => {
@@ -28,7 +28,7 @@ const UpcomingEventsSection = () => {
                   <div className="w-px h-32 bg-date-card-border"></div>
                 )}
               </div>
-              <div className="relative ml-5 mb-3 w-full h-40">
+              <div className="relative ml-5 mb-3 w-full h-40 cursor-pointer">
                 <Image
                   src={"/images/room1.png"}
                   alt="event-img"

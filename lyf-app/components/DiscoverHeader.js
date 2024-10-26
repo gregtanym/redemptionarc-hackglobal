@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import room1 from "../images/room1.png";
+import room1 from "../public/images/room1.png";
 import { UserCircle, Compass } from "@phosphor-icons/react";
 
 const DiscoverHeader = () => {
