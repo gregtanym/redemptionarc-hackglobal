@@ -1,0 +1,76 @@
+[
+  {
+    "tab" : "Today",
+    "events": [
+      {
+        "DayDate" : "27",
+        "monthDate" : "October",
+        "name": "Learn to go green",
+        "location": "lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/learnToGreen.jpg",
+        "totalPeople": 5
+      }
+    ]
+  },
+
+  {
+    "tab" : "Tomorrow",
+    "events": [
+      {
+        "DayDate" : "28",
+        "monthDate" : "October",
+        "name": "Learn to go green",
+        "location": "lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/learnToGreen.jpg",
+        "totalPeople": 5
+      }
+    ]
+  },{
+  "tab" : "This Week",
+  "events": [
+    {
+      "DayDate" : "27",
+      "monthDate" : "October",
+      "name": "Learn to go green",
+      "location": "lyf Ginza",
+      "ticket": "Free admission",
+      "imageSrc": "/images/learnToGreen.jpg",
+      "totalPeople": 5
+    },
+    {
+      "DayDate" : "1",
+      "monthDate" : "November",
+      "name": "Tech Innovation",
+      "location": "lyf Funan",
+      "ticket": "Free admission",
+      "imageSrc": "/images/techInnovation.jpg",
+      "totalPeople": 5
+    }
+  ]
+},
+  {
+    "tab" : "This Month",
+    "events": [
+      {
+        "DayDate" : "27",
+        "monthDate" : "October",
+        "name": "Learn to go green",
+        "location": "lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/learnToGreen.jpg",
+        "totalPeople": 5
+      },
+      {
+        "DayDate" : "1",
+        "monthDate" : "November",
+        "name": "Tech Innovation",
+        "location": "lyf Funan",
+        "ticket": "Free admission",
+        "imageSrc": "/images/techInnovation.jpg",
+        "totalPeople": 5
+      }
+    ]
+  }
+]

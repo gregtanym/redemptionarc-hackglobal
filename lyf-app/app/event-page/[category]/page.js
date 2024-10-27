@@ -3,6 +3,8 @@
 import { usePathname } from "next/navigation";
 import {useEffect, useState} from "react";
 import EventPageHeader from "@/components/eventPage/EventPageHeader";
+import {UnderlineTabs} from "@/components/eventPage/UnderlineTabs";
+import EventDetailsContent from "@/components/eventPage/EventDetailsContent";
 
 export default function EventCategoryPage() {
     const pathname = usePathname();
@@ -17,6 +19,12 @@ export default function EventCategoryPage() {
     return (
         <div>
             <EventPageHeader category={category} />
+
+            <div className="mt-3">
+                <UnderlineTabs/>
+            </div>
+
+            <EventDetailsContent/>
         </div>
     );
 }
