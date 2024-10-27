@@ -9,6 +9,7 @@ import {
   AlertDialog,
   AlertDialogContent,
   AlertDialogTrigger,
+  AlertDialogTitle
 } from "@/components/ui/alert-dialog";
 
 import {
@@ -146,7 +147,7 @@ export default function Chatbot() {
         <ScrollArea className="mb-2 h-80 w-full text-black max-w-[351px]">
           {chatArray.length == 0 ? (
             <div className="text-[#BAB9B9] mt-[5px]  mx-auto text-center max-w-[284px]">
-              <h2 className="font-bold text-[18px] ">{renderHeading()}</h2>
+              <AlertDialogTitle className="font-bold text-[18px] ">{renderHeading()}</AlertDialogTitle>
               <p className="text-[15px] my-3">{renderParagraph()}</p>
               <ChatOptions
                 options={renderOptions()}

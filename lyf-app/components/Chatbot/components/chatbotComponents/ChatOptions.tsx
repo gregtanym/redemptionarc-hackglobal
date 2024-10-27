@@ -7,7 +7,7 @@ const ChatOptions = ({ options, sendButtonPressed }) => {
     <div>
       {options.map((option) => {
         return (
-          <div className=" text-left flex items-center gap-5 bg-[#F6F6F6] rounded-xl p-4 mb-4">
+          <div key={uuidv4()} className=" text-left flex items-center gap-5 bg-[#F6F6F6] rounded-xl p-4 mb-4">
             <img src={option.iconPath} alt={option.text} />
             <p className="text-sm">{option.text}</p>
           </div>
