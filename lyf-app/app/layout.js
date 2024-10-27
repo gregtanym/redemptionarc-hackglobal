@@ -19,8 +19,9 @@ export default function RootLayout({ children }) {
               <div className="pb-28">
                 {children}
               </div>
-
-              {/*<div>chatbot</div>*/}
+              <div className="fixed bottom-[120px] right-8 z-50">
+                  <Chatbot/>
+                </div>
               <Navbar />
             </div>
           </SizeChecker>
