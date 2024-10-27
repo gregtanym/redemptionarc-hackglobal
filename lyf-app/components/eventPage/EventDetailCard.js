@@ -1,42 +1,52 @@
 import Image from 'next/image';
-import {MapPinArea, Ticket} from "@phosphor-icons/react";
+import {MapPinArea, Ticket, Heart} from "@phosphor-icons/react";
 import {AvatarStack} from "./AvatarStack";
 
 function EventDetailCard({ event }) {
     return (
-        <div className="bg-white rounded-lg shadow-lg p-4 mb-4">
+        <div className="bg-white rounded-[30px] shadow-lg p-4 mb-4 transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
             {/* Date and Time */}
             <div className="flex items-center justify-between mb-2">
                 <div>
-                    <h3 className="text-2xl font-bold">{event.DayDate} <span className="text-lg">{event.monthDate}</span></h3>
-                    <p className="text-sm text-gray-500">5.30pm - 9.00pm</p> {/* Add time from data if available */}
+                    <span>
+                        <span className="text-5xl font-bold mr-1">{event.DayDate}</span>
+                        <span className="text-lg">{event.monthDate.slice(0, 3)}</span>
+                    </span>
+                    <p className="text-sm text-gray-500">{event.time}</p>
                 </div>
-                <button className="text-gray-400 hover:text-gray-600">
-                    <Ticket size={20} />
+
+                <button
+                    className="bg-gray-300 rounded-full p-2 text-white hover:text-red-500 hover:bg-gray-200 mr-2">
+                    <Heart size={20} weight="bold"/>
                 </button>
             </div>
+
             {/* Event Name */}
-            <h2 className="text-xl font-semibold mb-1">{event.name}</h2>
+            <h2 className="text-2xl font-bold mb-1">{event.name}</h2>
+
             {/* Location and Ticket Info */}
             <div className="flex items-center text-gray-600 mb-2">
-                <MapPinArea className="mr-2" size={14} />
+                <MapPinArea className="mr-1" size={20} />
                 <span>{event.location}</span>
-                <span className="mx-2">•</span>
+
+                <Ticket className="ml-4 mr-1" size={20}/>
                 <span>{event.ticket}</span>
             </div>
+
+            {/* People Count */}
+            <div className="flex items-center mt-2 mb-2">
+                <AvatarStack/>
+                <span className="text-sm text-gray-600 ml-2">+{event.totalPeople} people joined</span>
+            </div>
+
             {/* Event Image */}
             <Image
                 src={event.imageSrc}
                 alt={event.name}
-                width={400}
-                height={200}
-                className="rounded-lg object-cover"
+                width={350}
+                height={150}
+                className="w-full h-[200px] object-cover rounded-[30px]"
             />
-            {/* People Count */}
-            <div className="flex items-center mt-2">
-                <AvatarStack/>
-                <span className="text-sm text-gray-600 ml-2">+{event.totalPeople} people joined</span>
-            </div>
         </div>
     );
 }

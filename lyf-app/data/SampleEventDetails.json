@@ -1,75 +1,154 @@
 [
   {
-    "tab" : "Today",
+    "tab": "Today",
     "events": [
       {
-        "DayDate" : "27",
-        "monthDate" : "October",
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "5.30pm - 7.00pm",
         "name": "Learn to go green",
-        "location": "lyf Ginza",
+        "location": "Lyf Ginza",
         "ticket": "Free admission",
         "imageSrc": "/images/learnToGreen.jpg",
+        "totalPeople": 5
+      },
+      {
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Art Therapy Workshop",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/artTheraphy.jpg",
+        "totalPeople": 12
+      }
+    ]
+  },
+
+  {
+    "tab": "Tomorrow",
+    "events": [
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "11.00am - 1.00pm",
+        "name": "Cooking Class: Vegan Dishes",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/cookingClass.jpg",
+        "totalPeople": 8
+      },
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "3.00pm - 5.00pm",
+        "name": "Yoga & Meditation",
+        "location": "Lyf Ginza Rooftop",
+        "ticket": "Free admission",
+        "imageSrc": "/images/yoga.jpg",
+        "totalPeople": 10
+      }
+    ]
+  },
+
+  {
+    "tab": "This Week",
+    "events": [
+      {
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "5.30pm - 9.00pm",
+        "name": "Learn to go green",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/learnToGreen.jpg",
+        "totalPeople": 5
+      },
+      {
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Art Therapy Workshop",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/artTheraphy.jpg",
+        "totalPeople": 12
+      },
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "11.00am - 1.00pm",
+        "name": "Cooking Class: Vegan Dishes",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/cookingClass.jpg",
+        "totalPeople": 8
+      },
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "3.00pm - 5.00pm",
+        "name": "Yoga & Meditation",
+        "location": "Lyf Ginza Rooftop",
+        "ticket": "Free admission",
+        "imageSrc": "/images/yoga.jpg",
+        "totalPeople": 10
+      },
+      {
+        "DayDate": "1",
+        "monthDate": "November",
+        "time": "2.30pm - 4.00pm",
+        "name": "Tech Innovation",
+        "location": "Lyf Funan",
+        "ticket": "Free admission",
+        "imageSrc": "/images/techInnovation.jpg",
         "totalPeople": 5
       }
     ]
   },
 
   {
-    "tab" : "Tomorrow",
+    "tab": "This Month",
     "events": [
       {
-        "DayDate" : "28",
-        "monthDate" : "October",
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "5.30pm - 9.00pm",
         "name": "Learn to go green",
-        "location": "lyf Ginza",
-        "ticket": "Free admission",
-        "imageSrc": "/images/learnToGreen.jpg",
-        "totalPeople": 5
-      }
-    ]
-  },{
-  "tab" : "This Week",
-  "events": [
-    {
-      "DayDate" : "27",
-      "monthDate" : "October",
-      "name": "Learn to go green",
-      "location": "lyf Ginza",
-      "ticket": "Free admission",
-      "imageSrc": "/images/learnToGreen.jpg",
-      "totalPeople": 5
-    },
-    {
-      "DayDate" : "1",
-      "monthDate" : "November",
-      "name": "Tech Innovation",
-      "location": "lyf Funan",
-      "ticket": "Free admission",
-      "imageSrc": "/images/techInnovation.jpg",
-      "totalPeople": 5
-    }
-  ]
-},
-  {
-    "tab" : "This Month",
-    "events": [
-      {
-        "DayDate" : "27",
-        "monthDate" : "October",
-        "name": "Learn to go green",
-        "location": "lyf Ginza",
+        "location": "Lyf Ginza",
         "ticket": "Free admission",
         "imageSrc": "/images/learnToGreen.jpg",
         "totalPeople": 5
       },
       {
-        "DayDate" : "1",
-        "monthDate" : "November",
-        "name": "Tech Innovation",
-        "location": "lyf Funan",
+        "DayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Art Therapy Workshop",
+        "location": "Lyf Ginza",
         "ticket": "Free admission",
-        "imageSrc": "/images/techInnovation.jpg",
-        "totalPeople": 5
+        "imageSrc": "/images/artTheraphy.jpg",
+        "totalPeople": 12
+      },
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "11.00am - 1.00pm",
+        "name": "Cooking Class: Vegan Dishes",
+        "location": "Lyf Ginza",
+        "ticket": "Free admission",
+        "imageSrc": "/images/cookingClass.jpg",
+        "totalPeople": 8
+      },
+      {
+        "DayDate": "28",
+        "monthDate": "October",
+        "time": "3.00pm - 5.00pm",
+        "name": "Yoga & Meditation",
+        "location": "Lyf Ginza Rooftop",
+        "ticket": "Free admission",
+        "imageSrc": "/images/yoga.jpg",
+        "totalPeople": 10
       }
     ]
   }
