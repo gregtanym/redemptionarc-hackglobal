@@ -1,0 +1,40 @@
+[
+  {
+    "user": "Ryan Loh",
+    "upcomingBookings": [
+      {
+        "bookingRef": 1,
+        "roomType": "Lyf Style (Thematic Studio)",
+        "bedType" : "1 Queen-size bed",
+        "pax": "Max 2 pax",
+        "bathroom": "1 Bathroom",
+        "accessibility": "Accessible room upon request",
+        "bathroomOthers": "Bathroom with a separate shower",
+        "price": "USD 148.35",
+        "roomImg": "/images/rooms/lyfStyle.png"
+      }
+    ]
+  },
+  {
+    "user": "Cheryl Lim",
+    "upcomingBookings": [
+      {}
+    ]
+  },
+  {
+    "user": "Greg Tan",
+    "upcomingBookings": [
+      {
+        "bookingRef": 1,
+        "roomType": "One of a kind (Studio)",
+        "bedType" : "1 Queen-size bed",
+        "pax": "Max 2 pax",
+        "bathroom": "1 Bathroom",
+        "price": "USD 148.35",
+        "roomImg": "/images/rooms/oneOfAKind.png",
+        "accessibility": "Accessible room upon request",
+        "bathroomOthers": "Bathroom with a separate shower"
+      }
+    ]
+  }
+]
