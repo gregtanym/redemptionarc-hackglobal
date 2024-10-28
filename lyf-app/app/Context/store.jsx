@@ -6,11 +6,15 @@ const AppContext = React.createContext()
 const AppProvider = (({children}) => {
 
     // insert your states here (pass it into the value attribute at the bottom)
+    const [selectedUserId, setSelectedUserId] = useState(1)
 
     // insert your functions here (pass it into the value attribute at the bottom)
     
     return(
-        <AppContext.Provider value={{}}>
+        <AppContext.Provider value={{
+            selectedUserId,
+            setSelectedUserId
+        }}>
             {children}
         </AppContext.Provider>
     )
