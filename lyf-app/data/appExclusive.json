@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "roomType": "Lyf Style (Thematic Studio)",
+    "bedType" : "1 Queen-size bed",
+    "pax": "Max 2 pax",
+    "bathroom": "1 Bathroom",
+    "price": "USD 148.35",
+    "roomImg": "/images/rooms/lyfStyle.png",
+    "accessibility": "Accessible room upon request",
+    "bathroomOthers": "Bathroom with a separate shower"
+  },
+  {
+    "id": 2,
+    "roomType": "One of a kind (Studio)",
+    "bedType" : "1 Queen-size bed",
+    "pax": "Max 2 pax",
+    "bathroom": "1 Bathroom",
+    "price": "USD 148.35",
+    "roomImg": "/images/rooms/oneOfAKind.png",
+    "accessibility": "Accessible room upon request",
+    "bathroomOthers": "Bathroom with a separate shower"
+  },
+  {
+    "id": 3,
+    "roomType": "Up and Down (Studio)",
+    "bedType" : "1 Double-size bed",
+    "pax": "Max 2 pax",
+    "bathroom": "1 Bathroom",
+    "price": "USD 200.35",
+    "roomImg": "/images/rooms/upAndDown.png",
+    "accessibility": "Accessible room upon request",
+    "bathroomOthers": "Bathroom with a separate shower"
+  }
+]
