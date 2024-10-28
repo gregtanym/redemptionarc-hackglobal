@@ -4,11 +4,13 @@ import residentData from "@/data/roomResidentDetails.json"
 import {useGlobalContext} from "@/app/Context/store";
 import {Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle} from "@/components/ui/dialog";
 import {Button} from "@/components/ui/button";
+import Image from "next/image";
 
 function ResidentAvatarStack({bookId}) {
     const [residents, setResidents] = useState([]);
     const { booked, setBooked } = useGlobalContext();
     const [openDialog, setOpenDialog] = useState(false);
+    const [isConfirmed, setIsConfirmed] = useState(false);
 
     const handleOpenDialog = (e) => {
         if (!booked) {
@@ -16,6 +18,12 @@ function ResidentAvatarStack({bookId}) {
             setOpenDialog(true);
         }
     };
+
+    const handleConfirm = () => {
+        setIsConfirmed(true);
+        setBooked(true);
+    };
+
 
     useEffect(() => {
         const residentsParticipating = residentData.find(room => room.roomId === Number(bookId));
@@ -81,14 +89,27 @@ function ResidentAvatarStack({bookId}) {
                     <p className="text-gray-700">
                         Book this room to meet and interact with your fellow residents!
                     </p>
+                    {/* Show tick icon only if booking is confirmed */}
+                    {isConfirmed && (
+                        <div className="flex justify-center mt-2">
+                            <Image
+                                src={"/images/check.png"}
+                                alt="Confirmation Tick"
+                                width={60}
+                                height={60}
+                                className="object-cover"
+                                quality={100}
+                            />
+                        </div>
+                    )}
                     <DialogFooter>
                         <Button
-                            onClick={() => setBooked(true)}
+                            onClick={handleConfirm}
+                            disabled={booked}
                             className="bg-black text-white hover:bg-gray-800 w-full mt-4"
                         >
                             Book Now
                         </Button>
-
                     </DialogFooter>
                 </DialogContent>
             </Dialog>
