@@ -9,7 +9,7 @@ function EventPageHeader({ category }) {
         <div className="relative w-full h-64">
 
             {/*Back button*/}
-            <Link href="/events" className="absolute top-4 left-4 text-white flex items-center z-50 transition-transform transform hover:-translate-x-1 hover:text-gray-300">
+            <Link href="/lyf-together/events" className="absolute top-4 left-4 text-white flex items-center z-50 transition-transform transform hover:-translate-x-1 hover:text-gray-300">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 transition-transform transform group-hover:-translate-x-1">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
                 </svg>
@@ -23,7 +23,7 @@ function EventPageHeader({ category }) {
                         <Image
                             src={item["imageSrc"]}
                             alt="image"
-                            width={500}$
+                            width={500}
                             height={300}
                             className="object-cover w-full h-full"
                             quality={100}

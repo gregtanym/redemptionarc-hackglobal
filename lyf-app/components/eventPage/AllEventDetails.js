@@ -62,23 +62,22 @@ export function AllEventDetails(category) {
             </div>
 
             <TabsBody>
-                <div className="bg-black min-h-screen p-4">
+                <div className="bg-black min-h-screen flex flex-col p-4 pb-52">
                     {EventDetails.some((item) => item.tab === activeTab && item.events.some((event) => event.category === category.category))
                         ? EventDetails.filter((item) => item.tab === activeTab)
                             .map((item) => (
-                                <div key={item.tab}>
+                                <div key={item.tab} className="flex flex-col flex-grow">
                                     {item.events.filter((event) => event.category === category.category)
                                         .map((subEvent, eventIndex) => (
-                                            <EventDetailCard selectedTab={activeTab} key={eventIndex} event={subEvent} />
+                                            <EventDetailCard selectedTab={activeTab} key={eventIndex} event={subEvent}/>
                                         ))}
                                 </div>
                             ))
-                        : <p className="text-white text-center">----- No events -----</p>
-                    }
+                        : <p className="text-white text-center">----- No events -----</p>}
                 </div>
             </TabsBody>
 
         </Tabs>
-);
+    );
 
 }
