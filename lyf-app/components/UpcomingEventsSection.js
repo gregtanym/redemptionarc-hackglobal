@@ -10,7 +10,7 @@ const UpcomingEventsSection = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="flex justify-between items-center w-full mb-3 mt-4">
-        <h1 className="font-bold text-xl ml-4">My Upcoming Events</h1>
+        <h1 className="font-bold text-xl ml-4">Upcoming Events</h1>
         <a href="lyf-together/events" className="underline cursor-pointer mr-4">
           See all
         </a>
