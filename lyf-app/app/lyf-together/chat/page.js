@@ -140,7 +140,7 @@ const Chat = () => {
               return (
                 <div
                   key={index}
-                  className="w-full flex items-center mb-3 p-2 rounded-lg"
+                  className="w-full flex items-center mb-3 p-2 rounded-lg cursor-pointer"
                   onClick={() => handleOnClick(chat.chatId)}
                 >
                   <img
@@ -174,7 +174,7 @@ const Chat = () => {
               return (
                 <div
                   key={index}
-                  className="w-full flex items-center mb-3 p-2 rounded-lg"
+                  className="w-full flex items-center mb-3 p-2 rounded-lg cursor-pointer"
                   onClick={() => handleOnClick(chat.chatId)}
                 >
                   <img
@@ -207,7 +207,7 @@ const Chat = () => {
               return (
                 <div
                   key={index}
-                  className="w-full flex items-center mb-3 p-2 rounded-lg"
+                  className="w-full flex items-center mb-3 p-2 rounded-lg cursor-pointer"
                   onClick={() => handleOnClick(chat.chatId)}
                 >
                   <img
