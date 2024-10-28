@@ -8,16 +8,23 @@ import BlueRobot from "@/components/icons/BlueRobot";
 interface ChatBubbleProps {
   isMe: boolean;
   content: string;
+  username?: string;
+  image_url?: string;
 }
 
-export const ChatBubble = ({ isMe, content }: ChatBubbleProps) => {
+export const ChatBubble = ({
+  isMe,
+  content,
+  username,
+  image_url,
+}: ChatBubbleProps) => {
   return (
     <div className="flex  w-full items-end ">
       {isMe ? null : (
         <Avatar className="my-2 ml-3">
-          <AvatarImage src="" />
+          <AvatarImage src={image_url} />
           <AvatarFallback className="text-gray-800 ">
-            <BlueRobot />
+            {username?.charAt(0)}
           </AvatarFallback>
         </Avatar>
       )}
@@ -34,6 +41,11 @@ export const ChatBubble = ({ isMe, content }: ChatBubbleProps) => {
           whiteSpace: "pre-wrap",
         }}
       >
+        {username && !isMe && (
+          <h1 className="text-sm">
+            <em>{username}</em>
+          </h1>
+        )}
         <ReactMarkdown
           className="markdown-content"
           remarkPlugins={[remarkGfm]}

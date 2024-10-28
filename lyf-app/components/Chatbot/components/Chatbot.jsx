@@ -33,7 +33,6 @@ import ChatInput from "./chatbotComponents/ChatInput";
 export default function Chatbot() {
   const [language, setLanguage] = React.useState("english");
   const [open, setOpen] = useState(false);
-  //   const [trigger, { data: chatData, isError }] = useLazyGetChatQuery();
   const [isNextChatLoading, setIsNextChatLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const [chatArray, setChatArray] = useState([]);
