@@ -1,0 +1,80 @@
+[
+  {
+    "eventName": "Learn to go green",
+    "stats": {
+      "genderRatio": { "male": 64, "female": 36 },
+      "ageDistribution": { ">35": 36, "26-35": 43, "18-25": 21 },
+      "soloTravelers": { "solo": 79, "nonSolo": 21 },
+      "countryDistribution": { "Singapore": 36, "Australia": 43, "China": 21 },
+      "industry": { "IT": 36, "Finance": 43, "Gas": 21 },
+      "purposeOfStay": { "Business trip": 42, "Travel": 37, "Leisure": 21 }
+    }
+  },
+  {
+    "eventName": "Art Therapy Workshop",
+    "stats": {
+      "genderRatio": { "male": 45, "female": 55 },
+      "ageDistribution": { ">35": 20, "26-35": 50, "18-25": 30 },
+      "soloTravelers": { "solo": 60, "nonSolo": 40 },
+      "countryDistribution": { "Japan": 50, "Korea": 30, "Singapore": 20 },
+      "industry": { "Art": 50, "Education": 30, "Finance": 20 },
+      "purposeOfStay": { "Workshop": 40, "Leisure": 35, "Networking": 25 }
+    }
+  },
+  {
+    "eventName": "Wine Tasting",
+    "stats": {
+      "genderRatio": { "male": 40, "female": 60 },
+      "ageDistribution": { ">35": 60, "26-35": 30, "18-25": 10 },
+      "soloTravelers": { "solo": 20, "nonSolo": 80 },
+      "countryDistribution": { "Australia": 50, "France": 30, "Italy": 20 },
+      "industry": { "Hospitality": 45, "Food & Beverage": 35, "Marketing": 20 },
+      "purposeOfStay": { "Leisure": 60, "Networking": 30, "Business": 10 }
+    }
+  },
+  {
+    "eventName": "Know your cheese",
+    "stats": {
+      "genderRatio": { "male": 48, "female": 52 },
+      "ageDistribution": { ">35": 40, "26-35": 40, "18-25": 20 },
+      "soloTravelers": { "solo": 25, "nonSolo": 75 },
+      "countryDistribution": { "France": 40, "Australia": 35, "Singapore": 25 },
+      "industry": { "Food & Beverage": 50, "Marketing": 30, "Education": 20 },
+      "purposeOfStay": { "Learning": 55, "Leisure": 30, "Networking": 15 }
+    }
+  },
+  {
+    "eventName": "Cooking Class: Vegan Dishes",
+    "stats": {
+      "genderRatio": { "male": 35, "female": 65 },
+      "ageDistribution": { ">35": 25, "26-35": 50, "18-25": 25 },
+      "soloTravelers": { "solo": 50, "nonSolo": 50 },
+      "countryDistribution": { "Singapore": 40, "Australia": 30, "India": 30 },
+      "industry": { "Food & Beverage": 40, "Health": 35, "Education": 25 },
+      "purposeOfStay": { "Learning": 50, "Leisure": 30, "Health": 20 }
+    }
+  },
+  {
+    "eventName": "Yoga & Meditation",
+    "stats": {
+      "genderRatio": { "male": 30, "female": 70 },
+      "ageDistribution": { ">35": 20, "26-35": 60, "18-25": 20 },
+      "soloTravelers": { "solo": 70, "nonSolo": 30 },
+      "countryDistribution": { "Japan": 30, "Singapore": 40, "USA": 30 },
+      "industry": { "Health": 60, "Education": 25, "IT": 15 },
+      "purposeOfStay": { "Wellness": 60, "Relaxation": 30, "Social": 10 }
+    }
+  },
+  {
+    "eventName": "Tech Innovation",
+    "stats": {
+      "genderRatio": { "male": 70, "female": 30 },
+      "ageDistribution": { ">35": 40, "26-35": 45, "18-25": 15 },
+      "soloTravelers": { "solo": 85, "nonSolo": 15 },
+      "countryDistribution": { "Singapore": 50, "USA": 25, "India": 25 },
+      "industry": { "IT": 50, "Engineering": 30, "Finance": 20 },
+      "purposeOfStay": { "Business": 55, "Networking": 35, "Innovation": 10 }
+    }
+  }
+]
+

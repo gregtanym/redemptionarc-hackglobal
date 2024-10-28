@@ -8,10 +8,13 @@ import Image from "next/image";
 import {Ticket, MapPinArea , Clock} from "@phosphor-icons/react";
 import {AvatarStack} from "@/components/eventPage/AvatarStack";
 import {Button} from "@/components/ui/button";
+import residentData from "@/data/SampleResidentDetailsData.json";
+import { Spinner } from "@material-tailwind/react";
 
 const Page = () => {
     const pathName = usePathname();
     const [event, setEvent] = useState(null);
+    const [participants, setParticipants] = useState([]);
 
     useEffect(() => {
         const idx = parseInt(pathName.split("/")[3]);
@@ -22,15 +25,17 @@ const Page = () => {
             .flatMap((item) => item["events"])
             .filter((event) => event["id"] === idx);
 
-        console.log("Filtered Events:", filteredEvents);
         setEvent(filteredEvents[0]);
+
+        const residentsParticipating = residentData.find(resEvent => resEvent.eventName === filteredEvents[0].name);
+        setParticipants(residentsParticipating);
 
     }, [pathName]);
 
     return (
         <div>
             {event ? (
-                <div className="relative w-full h-full">
+                <div className="relative w-full min-h-screen overflow-y-hidden">
                     {/* Back button */}
                     <Link href={`/event-page/${event.category}`}
                           className="absolute top-4 left-4 text-white flex items-center z-50 transition-transform transform hover:-translate-x-1">
@@ -55,7 +60,7 @@ const Page = () => {
                     </div>
 
                     {/* Card details */}
-                    <div className="relative -mt-10 p-6 pb-52 transform bg-white rounded-t-[30px] shadow-lg z-10">
+                    <div className="relative -mt-10 pt-6 px-6 transform bg-white rounded-t-[30px] z-10">
                         {/* Event Title */}
                         <h2 className="text-2xl font-bold">{event.name}</h2>
                         <p className="text-gray-700 my-4">{event.description}</p>
@@ -94,14 +99,15 @@ const Page = () => {
                         <hr className="mt-6" />
                         <div className="mt-2">
                             <p className="font-semibold">Participants:</p>
-                            <span className="text-sm text-gray-400">{event.totalPeople} people joined</span>
+                            <span className="text-sm text-gray-400">{participants.participants.length} people joined</span>
 
                             {/* People Count */}
                             <div className="flex items-center mt-2 mb-2">
-                                <AvatarStack />
+                                <AvatarStack participants={participants}/>
                             </div>
 
-                            <Link href={`/residents`}>
+                            {/*To residents*/}
+                            <Link href={`/lyf-together/residents/${event.name}`}>
                                 <p className="hover:underline hover:cursor-pointer text-sm text-black">Meet the
                                     residents</p>
                             </Link>
@@ -114,7 +120,9 @@ const Page = () => {
                     </div>
                 </div>
             ) : (
-                <p>Loading event details...</p>
+                <div className="flex justify-center items-center w-full mt-12">
+                    <Spinner className="h-16 w-16 text-gray-900/50" />
+                </div>
             )}
         </div>
     );

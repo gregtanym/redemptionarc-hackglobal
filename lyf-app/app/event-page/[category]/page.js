@@ -9,10 +9,10 @@ export default function EventCategoryPage() {
     const pathname = usePathname();
     const [category, setCategory] = useState("");
 
-    const extractedCat = pathname.split('/').pop(); // Extracts the last segment as a string
+    const extractedCat = pathname.split('/').pop();
 
     useEffect(() => {
-        setCategory(extractedCat); // This should be a string
+        setCategory(extractedCat);
     }, [extractedCat]);
 
     return (

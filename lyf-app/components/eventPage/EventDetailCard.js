@@ -2,8 +2,20 @@ import Image from 'next/image';
 import {MapPinArea, Ticket, Heart} from "@phosphor-icons/react";
 import {AvatarStack} from "./AvatarStack";
 import Link from "next/link";
+import residentData from "../../data/SampleResidentDetailsData.json";
+import {useEffect, useState} from "react";
 
 function EventDetailCard({ selectedTab, event }) {
+    const [participants, setParticipants] = useState([]);
+    const [totalParticipants, setTotalParticipants] = useState(0);
+
+    useEffect(() => {
+        const residentsParticipating = residentData.find(resEvent => resEvent.eventName === event.name);
+
+        setTotalParticipants(residentsParticipating.participants.length);
+        setParticipants(residentsParticipating);
+    }, [selectedTab, event]);
+
     return (
         <Link href={`/event-detail-page/${selectedTab}/${event.id}`} passHref>
             <div className="bg-white rounded-[30px] hover:cursor-pointer shadow-lg p-4 mb-4 transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
@@ -37,8 +49,17 @@ function EventDetailCard({ selectedTab, event }) {
 
                 {/* People Count */}
                 <div className="flex items-center mt-2 mb-2">
-                    <AvatarStack/>
-                    <span className="text-sm text-gray-600 ml-2">+{event.totalPeople} people joined</span>
+                    {
+                        totalParticipants !== 0 ? (
+                            <>
+                                <AvatarStack participants={participants}/>
+                                <span className="text-sm text-gray-600 ml-2">{totalParticipants} people joined</span>
+                            </>
+                        ) : (
+                            <div>No Participants Yet :( </div>
+                        )
+                    }
+
                 </div>
 
                 {/* Event Image */}
