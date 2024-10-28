@@ -12,6 +12,27 @@ import EventDetailCard from "@/components/eventPage/EventDetailCard";
 export function AllEventDetails(category) {
     const [activeTab, setActiveTab] = React.useState("Today");
 
+    function getTab(tab) {
+        let displayTab = "";
+
+        switch(tab) {
+            case "Today":
+                displayTab = "Today"
+                break;
+            case "Tomorrow":
+                displayTab = "Tomorrow"
+                break;
+            case "ThisWeek":
+                displayTab = "This Week"
+                break
+            case "ThisMonth":
+                displayTab = "This Month"
+                break;
+        }
+
+        return displayTab;
+    }
+
     return (
         <Tabs value={activeTab}>
             <TabsHeader
@@ -28,7 +49,7 @@ export function AllEventDetails(category) {
                         onClick={() => setActiveTab(tab)}
                         className={activeTab === tab ? "text-gray-900" : "text-gray-500"}
                     >
-                        {tab}
+                        {getTab(tab)}
                     </Tab>
                 ))}
             </TabsHeader>
@@ -41,18 +62,22 @@ export function AllEventDetails(category) {
             </div>
 
             <TabsBody>
-                    <div className="bg-black min-h-screen p-4">
-                        {EventDetails.filter((item) => item.tab === activeTab)
+                <div className="bg-black min-h-screen p-4">
+                    {EventDetails.some((item) => item.tab === activeTab && item.events.some((event) => event.category === category.category))
+                        ? EventDetails.filter((item) => item.tab === activeTab)
                             .map((item) => (
                                 <div key={item.tab}>
-                                    {item.events.filter((event) => event["category"] === category.category)
+                                    {item.events.filter((event) => event.category === category.category)
                                         .map((subEvent, eventIndex) => (
-                                        <EventDetailCard selectedTab = {activeTab} key={eventIndex} event={subEvent}/>
-                                    ))}
+                                            <EventDetailCard selectedTab={activeTab} key={eventIndex} event={subEvent} />
+                                        ))}
                                 </div>
-                            ))}
-                    </div>
+                            ))
+                        : <p className="text-white text-center">----- No events -----</p>
+                    }
+                </div>
             </TabsBody>
+
         </Tabs>
 );
 

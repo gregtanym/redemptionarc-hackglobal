@@ -101,7 +101,11 @@ const Page = () => {
                                 <AvatarStack />
                             </div>
 
-                            <p className="hover:underline hover:cursor-pointer text-sm text-black">Meet the residents</p>
+                            <Link href={`/residents`}>
+                                <p className="hover:underline hover:cursor-pointer text-sm text-black">Meet the
+                                    residents</p>
+                            </Link>
+
                         </div>
 
                         <Button className="mt-4 bg-black text-white rounded-[50px] w-full h-14 hover:bg-gray-900">

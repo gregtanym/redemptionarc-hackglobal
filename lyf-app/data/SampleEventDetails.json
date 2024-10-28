@@ -53,11 +53,11 @@
         "dayDate": "27",
         "monthDate": "October",
         "time": "8.00pm - 10.00pm",
-        "name": "Art Therapy Workshop",
+        "name": "Know your cheese",
         "location": "Lyf Ginza",
         "eventLocation": "Lyf Ginza - Art Studio Room",
         "ticket": "Free admission",
-        "imageSrc": "/images/artTheraphy.jpg",
+        "imageSrc": "/images/knowYourCheeses.jpg",
         "imageEventLocationSrc": "/images/eventLocationGinza.png",
         "totalPeople": 12,
         "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
@@ -133,7 +133,7 @@
         "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       },
       {
-        "id": 5,
+        "id": 3,
         "category": "workshop",
         "dayDate": "28",
         "monthDate": "October",
@@ -148,7 +148,7 @@
         "description": "Discover the joys of plant-based cooking! Join our vegan cooking class at Lyf Ginza and learn how to create delicious, nutritious dishes that are kind to both your body and the planet."
       },
       {
-        "id": 6,
+        "id": 4,
         "category": "workshop",
         "dayDate": "28",
         "monthDate": "October",
@@ -176,6 +176,36 @@
         "imageEventLocationSrc": "/images/eventLocationGinza.png",
         "totalPeople": 5,
         "description": "Get a glimpse into the future of technology at our Tech Innovation event. Held at Lyf Funan, this event showcases cutting-edge advancements and the latest trends in the tech world. Perfect for tech enthusiasts and innovators!"
+      },
+      {
+        "id": 6,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Wine Tasting",
+        "location": "Lyf CollingWood Melbourne",
+        "eventLocation": "Lyf CollingWood Melbourne - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/eventWineTasting.jpg",
+        "imageEventLocationSrc": "/images/lyfCollingWoodEvent.png",
+        "totalPeople": 8,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
+      },
+      {
+        "id": 7,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Know your cheese",
+        "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/knowYourCheeses.jpg",
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       }
     ]
   },
@@ -241,7 +271,38 @@
         "imageEventLocationSrc": "/images/eventLocationGinza.png",
         "totalPeople": 10,
         "description": "Recharge and find inner peace with our rooftop Yoga & Meditation session at Lyf Ginza. This session will guide you through mindful practices that help reduce stress and increase mental clarity."
+      },
+      {
+        "id": 5,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Wine Tasting",
+        "location": "Lyf CollingWood Melbourne",
+        "eventLocation": "Lyf CollingWood Melbourne - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/eventWineTasting.jpg",
+        "imageEventLocationSrc": "/images/lyfCollingWoodEvent.png",
+        "totalPeople": 8,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
+      },
+      {
+        "id": 6,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Know your cheese",
+        "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/knowYourCheeses.jpg",
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       }
+
     ]
   }
 ]
