@@ -210,7 +210,7 @@
         "name": "Sarah",
         "img": "/images/residentProfile/sarah.jpg",
         "numPositiveReviews": "14",
-        "description": "Culinary expert with a passion for cheese.",
+        "description": "Culinary expert e a passion for cheese.",
         "badges": ["/images/badges/5EventBadge.svg" ,"/images/badges/10EventBadge.svg"],
         "reviews": [
           "Sarah knows her cheeses and is very passionate about it!",
