@@ -20,7 +20,7 @@ export default function EventCategoryPage() {
             <EventPageHeader category={category} />
 
             <div className="mt-3">
-                <AllEventDetails/>
+                <AllEventDetails category={category} />
             </div>
         </div>
     );

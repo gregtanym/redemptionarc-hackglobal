@@ -3,152 +3,244 @@
     "tab": "Today",
     "events": [
       {
-        "DayDate": "27",
+        "id": 1,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "5.30pm - 7.00pm",
         "name": "Learn to go green",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Garden Area",
         "ticket": "Free admission",
         "imageSrc": "/images/learnToGreen.jpg",
-        "totalPeople": 5
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 5,
+        "description": "Join us for an inspiring session on sustainable living at Lyf Ginza! Discover practical ways to incorporate eco-friendly habits into your daily routine. This event is perfect for anyone looking to make a positive impact on the environment."
       },
       {
-        "DayDate": "27",
+        "id": 2,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "8.00pm - 10.00pm",
         "name": "Art Therapy Workshop",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
         "ticket": "Free admission",
         "imageSrc": "/images/artTheraphy.jpg",
-        "totalPeople": 12
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
+      },
+      {
+        "id": 3,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Wine Tasting",
+        "location": "Lyf CollingWood Melbourne",
+        "eventLocation": "Lyf CollingWood Melbourne - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/eventWineTasting.jpg",
+        "imageEventLocationSrc": "/images/lyfCollingWoodEvent.png",
+        "totalPeople": 8,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
+      },
+      {
+        "id": 4,
+        "category": "food",
+        "dayDate": "27",
+        "monthDate": "October",
+        "time": "8.00pm - 10.00pm",
+        "name": "Art Therapy Workshop",
+        "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
+        "ticket": "Free admission",
+        "imageSrc": "/images/artTheraphy.jpg",
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       }
     ]
   },
-
   {
     "tab": "Tomorrow",
     "events": [
       {
-        "DayDate": "28",
+        "id": 5,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "11.00am - 1.00pm",
         "name": "Cooking Class: Vegan Dishes",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Community Kitchen",
         "ticket": "Free admission",
         "imageSrc": "/images/cookingClass.jpg",
-        "totalPeople": 8
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 8,
+        "description": "Discover the joys of plant-based cooking! Join our vegan cooking class at Lyf Ginza and learn how to create delicious, nutritious dishes that are kind to both your body and the planet."
       },
       {
-        "DayDate": "28",
+        "id": 6,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "3.00pm - 5.00pm",
         "name": "Yoga & Meditation",
         "location": "Lyf Ginza Rooftop",
+        "eventLocation": "Lyf Ginza - Rooftop Terrace",
         "ticket": "Free admission",
         "imageSrc": "/images/yoga.jpg",
-        "totalPeople": 10
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 10,
+        "description": "Recharge and find inner peace with our rooftop Yoga & Meditation session at Lyf Ginza. This session will guide you through mindful practices that help reduce stress and increase mental clarity."
       }
     ]
   },
-
   {
-    "tab": "This Week",
+    "tab": "ThisWeek",
     "events": [
       {
-        "DayDate": "27",
+        "id": 1,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "5.30pm - 9.00pm",
         "name": "Learn to go green",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Garden Area",
         "ticket": "Free admission",
         "imageSrc": "/images/learnToGreen.jpg",
-        "totalPeople": 5
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 5,
+        "description": "Join us for an inspiring session on sustainable living at Lyf Ginza! Discover practical ways to incorporate eco-friendly habits into your daily routine. This event is perfect for anyone looking to make a positive impact on the environment."
       },
       {
-        "DayDate": "27",
+        "id": 2,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "8.00pm - 10.00pm",
         "name": "Art Therapy Workshop",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
         "ticket": "Free admission",
         "imageSrc": "/images/artTheraphy.jpg",
-        "totalPeople": 12
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       },
       {
-        "DayDate": "28",
+        "id": 5,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "11.00am - 1.00pm",
         "name": "Cooking Class: Vegan Dishes",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Community Kitchen",
         "ticket": "Free admission",
         "imageSrc": "/images/cookingClass.jpg",
-        "totalPeople": 8
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 8,
+        "description": "Discover the joys of plant-based cooking! Join our vegan cooking class at Lyf Ginza and learn how to create delicious, nutritious dishes that are kind to both your body and the planet."
       },
       {
-        "DayDate": "28",
+        "id": 6,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "3.00pm - 5.00pm",
         "name": "Yoga & Meditation",
         "location": "Lyf Ginza Rooftop",
+        "eventLocation": "Lyf Ginza - Rooftop Terrace",
         "ticket": "Free admission",
         "imageSrc": "/images/yoga.jpg",
-        "totalPeople": 10
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 10,
+        "description": "Recharge and find inner peace with our rooftop Yoga & Meditation session at Lyf Ginza. This session will guide you through mindful practices that help reduce stress and increase mental clarity."
       },
       {
-        "DayDate": "1",
+        "id": 5,
+        "category": "workshop",
+        "dayDate": "1",
         "monthDate": "November",
         "time": "2.30pm - 4.00pm",
         "name": "Tech Innovation",
         "location": "Lyf Funan",
+        "eventLocation": "Lyf Funan - Innovation Hub",
         "ticket": "Free admission",
         "imageSrc": "/images/techInnovation.jpg",
-        "totalPeople": 5
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 5,
+        "description": "Get a glimpse into the future of technology at our Tech Innovation event. Held at Lyf Funan, this event showcases cutting-edge advancements and the latest trends in the tech world. Perfect for tech enthusiasts and innovators!"
       }
     ]
   },
-
   {
-    "tab": "This Month",
+    "tab": "ThisMonth",
     "events": [
       {
-        "DayDate": "27",
+        "id": 1,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "5.30pm - 9.00pm",
         "name": "Learn to go green",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Garden Area",
         "ticket": "Free admission",
         "imageSrc": "/images/learnToGreen.jpg",
-        "totalPeople": 5
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 5,
+        "description": "Join us for an inspiring session on sustainable living at Lyf Ginza! Discover practical ways to incorporate eco-friendly habits into your daily routine. This event is perfect for anyone looking to make a positive impact on the environment."
       },
       {
-        "DayDate": "27",
+        "id": 2,
+        "category": "workshop",
+        "dayDate": "27",
         "monthDate": "October",
         "time": "8.00pm - 10.00pm",
         "name": "Art Therapy Workshop",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Art Studio Room",
         "ticket": "Free admission",
         "imageSrc": "/images/artTheraphy.jpg",
-        "totalPeople": 12
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 12,
+        "description": "Unwind and express yourself creatively at our Art Therapy Workshop. Guided by professionals, this session will help you de-stress and explore therapeutic art techniques in a relaxed atmosphere at Lyf Ginza."
       },
       {
-        "DayDate": "28",
+        "id": 3,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "11.00am - 1.00pm",
         "name": "Cooking Class: Vegan Dishes",
         "location": "Lyf Ginza",
+        "eventLocation": "Lyf Ginza - Community Kitchen",
         "ticket": "Free admission",
         "imageSrc": "/images/cookingClass.jpg",
-        "totalPeople": 8
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 8,
+        "description": "Discover the joys of plant-based cooking! Join our vegan cooking class at Lyf Ginza and learn how to create delicious, nutritious dishes that are kind to both your body and the planet."
       },
       {
-        "DayDate": "28",
+        "id": 4,
+        "category": "workshop",
+        "dayDate": "28",
         "monthDate": "October",
         "time": "3.00pm - 5.00pm",
         "name": "Yoga & Meditation",
         "location": "Lyf Ginza Rooftop",
+        "eventLocation": "Lyf Ginza - Rooftop Terrace",
         "ticket": "Free admission",
         "imageSrc": "/images/yoga.jpg",
-        "totalPeople": 10
+        "imageEventLocationSrc": "/images/eventLocationGinza.png",
+        "totalPeople": 10,
+        "description": "Recharge and find inner peace with our rooftop Yoga & Meditation session at Lyf Ginza. This session will guide you through mindful practices that help reduce stress and increase mental clarity."
       }
     ]
   }

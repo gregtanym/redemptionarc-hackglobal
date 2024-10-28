@@ -9,8 +9,9 @@ import EventDetails from "../../data/SampleEventDetails.json";
 import {SlidersHorizontal} from "@phosphor-icons/react";
 import EventDetailCard from "@/components/eventPage/EventDetailCard";
 
-export function AllEventDetails() {
+export function AllEventDetails(category) {
     const [activeTab, setActiveTab] = React.useState("Today");
+
     return (
         <Tabs value={activeTab}>
             <TabsHeader
@@ -44,8 +45,9 @@ export function AllEventDetails() {
                         {EventDetails.filter((item) => item.tab === activeTab)
                             .map((item) => (
                                 <div key={item.tab}>
-                                    {item.events.map((event, eventIndex) => (
-                                        <EventDetailCard key={eventIndex} event={event}/>
+                                    {item.events.filter((event) => event["category"] === category.category)
+                                        .map((subEvent, eventIndex) => (
+                                        <EventDetailCard selectedTab = {activeTab} key={eventIndex} event={subEvent}/>
                                     ))}
                                 </div>
                             ))}

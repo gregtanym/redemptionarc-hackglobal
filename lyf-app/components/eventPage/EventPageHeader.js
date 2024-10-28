@@ -23,14 +23,14 @@ function EventPageHeader({ category }) {
                         <Image
                             src={item["imageSrc"]}
                             alt="image"
-                            width={500}
+                            width={500}$
                             height={300}
                             className="object-cover w-full h-full"
                             quality={100}
                         />
 
                         {/*opacity*/}
-                        <div className="absolute inset-0 bg-black bg-opacity-50 rounded-b-2xl"></div>
+                        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
                         <div className="absolute bottom-4 left-4 text-white px-4 mb-4">
                             <div className="flex">
