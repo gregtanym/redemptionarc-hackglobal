@@ -15,6 +15,7 @@ import {
   Headset,
   Heart,
 } from "@phosphor-icons/react";
+import Link from "next/link";
 
 const Profile = () => {
   const { selectedUserId } = useGlobalContext();
@@ -116,23 +117,25 @@ const Profile = () => {
               </label>
             </div>
             {/* Log out */}
-            <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
-              <div className="flex items-center">
-                <SignOut
-                  size={28}
-                  className="text-gray-500 group-hover:text-white"
-                />
-                <div className="mx-3">
-                  <div className="group-hover:text-white">Log out</div>
+            <Link href="/login">
+              <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
+                <div className="flex items-center">
+                  <SignOut
+                    size={28}
+                    className="text-gray-500 group-hover:text-white"
+                  />
+                  <div className="mx-3">
+                    <div className="group-hover:text-white">Log out</div>
+                  </div>
+                </div>
+                <div>
+                  <CaretRight
+                    size={24}
+                    className="text-gray-500 group-hover:text-white"
+                  />
                 </div>
               </div>
-              <div>
-                <CaretRight
-                  size={24}
-                  className="text-gray-500 group-hover:text-white"
-                />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col items-start mt-3 w-full">
