@@ -6,6 +6,12 @@ import allResidentDetailsData from "@/data/SampleResidentDetailsData.json";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import Image from "next/image";
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader, DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog"
 
 const Page = () => {
     const path = usePathname();
@@ -36,7 +42,6 @@ const Page = () => {
 
             <div className="mt-14">
                 <div className="text-lg font-extrabold ml-4">Meet some of the TOP friendly participants</div>
-                {/*todo*/}
                 <div className="grid grid-cols-2 mx-4">
                     {participants.length > 0 ? (
                         participants.slice(0,3).map((eachParticipant, index) => (
@@ -79,31 +84,98 @@ const Page = () => {
             <div className="mt-6">
                 <div className="text-lg font-extrabold ml-4">Meet your fellow residents</div>
                 <div className="mt-2 space-y-4 ml-4">
-                    {participants.length > 0 ? (
-                        participants.map((eachParticipant, index) => (
-                            <div
-                                key={index}
-                                className="hover:cursor-pointer flex items-center space-x-4 space-y-3 transform transition-transform duration-200 ease-in-out hover:scale-105"
-                            >
-                                <Avatar className="w-16 h-16">
-                                    <AvatarImage src={eachParticipant.img} className="object-cover"/>
-                                    <AvatarFallback>{eachParticipant.name[0]}</AvatarFallback>
-                                </Avatar>
-                                <div>
-                                    <p className="font-semibold text-md hover:underline">{eachParticipant.name}</p>
-                                    <p className="text-xs text-gray-500 mb-1">
-                                        {eachParticipant.numPositiveReviews} positive reviews
-                                    </p>
-                                    <p className="text-sm text-gray-700">{eachParticipant.description}</p>
-                                </div>
-                            </div>
-                        ))
-                    ) : (
-                        <p className="ml-4">No participants found for this event.</p>
-                    )}
+                        {participants.length > 0 ? (
+                            participants.map((eachParticipant, index) => (
+                                <>
+                                <Dialog key = {eachParticipant.name}>
+                                    <DialogTrigger asChild>
+                                        <div
+                                            key={index}
+                                            className="hover:cursor-pointer flex items-center space-x-4 space-y-3 transform transition-transform duration-200 ease-in-out hover:scale-105"
+                                        >
+                                            <Avatar className="w-16 h-16">
+                                                <AvatarImage src={eachParticipant.img} className="object-cover"/>
+                                                <AvatarFallback>{eachParticipant.name[0]}</AvatarFallback>
+                                            </Avatar>
+                                            <div>
+                                                <p className="font-semibold text-md hover:underline">{eachParticipant.name}</p>
+                                                <p className="text-xs text-gray-500 mb-1">
+                                                    {eachParticipant.numPositiveReviews} positive reviews
+                                                </p>
+                                                <p className="text-sm text-gray-700">{eachParticipant.description}</p>
+                                            </div>
+                                        </div>
+                                    </DialogTrigger>
+
+                                    <DialogContent className="w-full max-w-[600px] mx-auto px-4 py-6">
+                                        <DialogHeader>
+                                            <div className="relative w-full h-40 overflow-hidden rounded-t-lg">
+                                                <Image
+                                                    src="/images/mountainImage.jpg"
+                                                    alt="Background Banner"
+                                                    layout="fill"
+                                                    objectFit="cover"
+                                                    quality={100}
+                                                    className="rounded-t-lg"
+                                                />
+                                            </div>
+
+                                            {/* Avatar Overlap */}
+                                            <div
+                                                className="absolute top-44 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center">
+                                                <Avatar
+                                                    className="w-24 h-24 rounded-full border-4 border-white shadow-lg">
+                                                    <AvatarImage src={eachParticipant.img} alt={eachParticipant.name}
+                                                                 className="object-cover"/>
+                                                    <AvatarFallback>{eachParticipant.name[0]}</AvatarFallback>
+                                                </Avatar>
+                                            </div>
+                                        </DialogHeader>
+
+                                        <div className="flex flex-col items-center space-y-2 mt-9">
+                                            <DialogTitle className="text-lg font-semibold">
+                                                {eachParticipant.name}
+                                            </DialogTitle>
+                                            <span className="text-xs text-gray-500">
+                                                {eachParticipant.numPositiveReviews} positive reviews
+                                            </span>
+                                            <span className="text-sm text-gray-700 text-center">
+                                                {eachParticipant.description}
+                                            </span>
+                                        </div>
+
+
+                                        <div className="px-4">
+                                            <h3 className="font-bold text-md mb-2">Badges</h3>
+                                            <div className="flex gap-2">
+                                                {eachParticipant.badges.map((badge, index) => (
+                                                    <Image key={index} src={badge} alt="Badge" width={60}
+                                                           height={56}
+                                                           className="rounded-full shadow-sm"/>
+                                                ))}
+                                            </div>
+                                        </div>
+
+                                        <div className="px-4">
+                                            <h3 className="font-bold text-md mb-2">Reviews</h3>
+                                            <div className="flex gap-4 overflow-x-auto">
+                                                {eachParticipant.reviews.map((review, index) => (
+                                                    <div key={index}
+                                                         className="p-4 bg-gray-100 rounded-lg shadow-sm min-w-[200px]">
+                                                        <p className="text-sm text-gray-700">"{review}"</p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    </DialogContent>
+                                </Dialog>
+                                </>
+                            ))
+                        ) : (
+                            <p className="ml-4">No participants found for this event.</p>
+                        )}
                 </div>
             </div>
-
         </div>
     );
 };
