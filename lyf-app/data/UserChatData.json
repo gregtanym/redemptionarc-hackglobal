@@ -1,0 +1,289 @@
+[
+    {
+        "userId": 1,
+        "chatDetails":[
+            {
+                "chatId": 1,
+                "chatTitle": "Lyf Singapore Solo Travellers",
+                "chatImg": "/icons/Avatar.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Ryan Loh to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan, nice to meet you!",
+                        "username": "John Doe",
+                        "image_url":
+                        "/images/residentProfile/daniel.jpg"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan. Feel free to ask me for any concerns or advice about solo travelling in Singapore",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "/images/residentProfile/cheryl.jpg"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan! Welcome to the Lyf community",
+                        "username": "Jackson Lee",
+                        "image_url": "/images/residentProfile/david.jpg"
+                    }
+                ]
+            },
+            {
+                "chatId": 2,
+                "chatTitle": "Marketing People",
+                "chatImg": "/icons/Avatar2.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Ryan Loh to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan, what do you do for work?",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan. There's a networking event in Singapore called SWITCH happening tomorrow. You should totally come with us!",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan! How long have you been in the business of marketing?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            },
+            {   
+                "chatId": 3,
+                "chatTitle": "Leisure/Sightseeing",
+                "chatImg": "/icons/Avatar3.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Ryan Loh to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan, what hobbies do you have?",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan. Some of us will be going to the Gardens By the Bay tomorrow. You should totally come with us!",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Ryan! This week Lyf is having a board games night. You wanna check it out together?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userId": 2,
+        "chatDetails":[
+            {
+                "chatId": 4,
+                "chatTitle": "Finbros @ Lyf",
+                "chatImg": "/icons/Avatar.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Greg Tan to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg, nice to meet you!",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg. Are you into Crypto and Web3?",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg! Are you bullish on the new memecoin released by Kanye West?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            },
+            {
+                "chatId": 5,
+                "chatTitle": "Lyf Networking",
+                "chatImg": "/icons/Avatar2.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Greg Tan to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg, what business do you have in Singapore?",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg. There's a position that just opened in my company and I think you would be perfect for it",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Greg! Are you looking to raise venture capital for your business?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "userId": 3,
+        "chatDetails":[
+            {
+                "chatId": 6,
+                "chatTitle": "Lyf Singapore Solo Travellers",
+                "chatImg": "/icons/Avatar.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Cheryl Lim to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl, nice to meet you!",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl. Feel free to ask me for any concerns or advice about solo travelling in Singapore",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl! Welcome to the Lyf community",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            },
+            {
+                "chatId": 7,
+                "chatTitle": "IT Bros and Gals",
+                "chatImg": "/icons/Avatar2.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Cheryl Lim to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl, what do you do for work?",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl. There's a big tech event in Singapore called SWITCH happening tomorrow. You should totally come with us!",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl! I'm forming a team for a hackathon in Singapore next week. Would you be interested?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            },
+            {
+                "chatId": 8,
+                "chatTitle": "Leisure/Sightseeing",
+                "chatImg": "/icons/Avatar3.svg",
+                "chatArray": [
+                    {
+                        "isMe": false,
+                        "content": "Welcome Cheryl Lim to Lyf Singapore. Please share 3 fun facts about yourself",
+                        "username": "Lyf Singapore Bot",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl, what hobbies do you have?",
+                        "username": "John Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Imagfdsafe_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl. Some of us will be going to the Gardens By the Bay tomorrow. You should totally come with us!",
+                        "username": "Jane Doe",
+                        "image_url":
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/440px-Image_created_with_a_mobile_phone.png"
+                    },
+                    {
+                        "isMe": false,
+                        "content": "Hi Cheryl! This week Lyf is having a board games night. You wanna check it out together?",
+                        "username": "Jackson Lee",
+                        "image_url": "https://via.placeholder.com/150"
+                    }
+                ]
+            }
+        ]
+    }
+]

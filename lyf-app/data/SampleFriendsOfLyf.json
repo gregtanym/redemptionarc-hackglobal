@@ -1,0 +1,102 @@
+[
+    {
+      "name": "Peter",
+      "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+      "numPositiveReviews": "12",
+      "description": "Nature lover and hiking enthusiast. Excited to meet like-minded people!",
+      "badges": ["/images/badges/friendlyBadge.svg" , "/images/badges/volunteerBadge.svg"],
+      "reviews": [
+        "James is great company and very knowledgeable about sustainability.",
+        "Had amazing conversations with James about eco-friendly practices."
+      ]
+    },
+    {
+      "name": "Mary",
+      "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956",
+      "numPositiveReviews": "10",
+      "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+      "badges": ["/images/badges/friendlyBadge.svg"],
+      "reviews": [
+        "Mary brings a calming presence and is very lovely.",
+        "Amazing!!"
+      ]
+    },
+    {
+      "name": "Ava",
+      "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      "numPositiveReviews": "10",
+      "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+      "badges": ["/images/badges/friendlyBadge.svg"],
+      "reviews": [
+        "Ava brings a calming presence and is very open-minded.",
+        "Loved working on projects together, she has an eye for detail."
+      ]
+    },
+    {
+      "name": "Cheryl",
+      "img": "/images/residentProfile/cheryl.jpg",
+      "badge": ["/images/badges/5eventsBadge.svg" , "/images/badges/friendlyBadge.svg"],
+      "numPositiveReviews": "8",
+      "description": "Hi everyone, I love reading and going for an adventure!",
+      "badges": ["/images/badges/friendlyBadge.svg"],
+      "reviews": [
+        "Cheryl was a very friendly and caring fellow resident. Very easy going and easy to talk to!",
+        "Friendly and nice to chat along. Very fun to be with"
+      ]
+    },
+    {
+      "name": "Sophia",
+      "img": "/images/residentProfile/sophia.jpg",
+      "numPositiveReviews": "10",
+      "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+      "badges": ["/images/badges/friendlyBadge.svg", "/images/badges/10EventBadge.svg"],
+      "reviews": [
+        "Sophia brings a calming presence and is very open-minded.",
+        "Loved working on projects together, she has an eye for detail."
+      ]
+    },
+    {
+      "name": "Kelly",
+      "img": "/images/residentProfile/kelly.jpg",
+      "numPositiveReviews": "7",
+      "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+      "badges": ["/images/badges/friendlyBadge.svg"],
+      "reviews": [
+        "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+        "Wonderful to be around; she brings thoughtful perspectives."
+      ]
+    },
+    {
+        "name": "Kelly",
+        "img": "/images/residentProfile/james.jpg",
+        "numPositiveReviews": "7",
+        "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+          "Wonderful to be around; she brings thoughtful perspectives."
+        ]
+      },
+      {
+        "name": "Kelly",
+        "img": "/images/residentProfile/Lucas.jpg",
+        "numPositiveReviews": "7",
+        "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+          "Wonderful to be around; she brings thoughtful perspectives."
+        ]
+      },
+      {
+        "name": "Kelly",
+        "img": "/images/residentProfile/mia.jpg",
+        "numPositiveReviews": "7",
+        "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+          "Wonderful to be around; she brings thoughtful perspectives."
+        ]
+      }
+  ]

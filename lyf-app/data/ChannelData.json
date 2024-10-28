@@ -1,0 +1,79 @@
+[
+    {
+        "chatId": 1,
+        "chatTitle": "Singapore Danger Alert",
+        "chatImg": "/icons/Avatar.svg",
+        "chatArray": [
+            {
+                "isMe": false,
+                "content": "Riots reported at Sengkang Block 75. https://www.straitstimes.com/singapore/as-anti-racism-protests-grow-singaporeans-emerge-from-riot-hit-uk-with-fear-and-hope",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            },
+            {
+                "isMe": false,
+                "content": "Robbery reported at Tampines Mall L2. https://www.channelnewsasia.com/singapore",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            },
+            {
+                "isMe": false,
+                "content": "Tourist scams detected in Geylang Lorong 13. https://www.straitstimes.com/singapore/govt-looking-at-ways-to-better-support-persons-with-disabilities-into-adulthood-pm-wong",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            }
+        ]
+    },
+    {
+        "chatId": 2,
+        "chatTitle": "Lyf Safety Announcements",
+        "chatImg": "/icons/Avatar2.svg",
+        "chatArray": [
+            {
+                "isMe": false,
+                "content": "Do not leave your belongings unattended in our common areas.",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            },
+            {
+                "isMe": false,
+                "content": "Please keep knives back in their original arrangement after cooking",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            },
+            {
+                "isMe": false,
+                "content": "Please do not shower with an electrical applicance plugged in",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            }
+        ]
+    },
+    {   
+        "chatId": 3,
+        "chatTitle": "Local Weather Forecast",
+        "chatImg": "/icons/Avatar3.svg",
+        "chatArray": [
+            {
+                "isMe": false,
+                "content": "Heavy rain predicted over the East of Singapore ",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            },
+            {
+                "isMe": false,
+                "content": "Strong haze detected in the atmosphere. Please refrain from going out.",
+                "username": "Lyf Singapore Bot",
+                "image_url":
+                "https://cdn-icons-png.flaticon.com/512/4712/4712010.png"
+            }
+        ]
+    }
+]
