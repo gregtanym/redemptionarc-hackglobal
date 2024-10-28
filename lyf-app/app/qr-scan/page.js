@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import QrScanPage from "@/components/qrScan/QrScan";
 
 const QrScan = () => {
   return (
-    <div>QrScan</div>
-  )
-}
+    <>
+      <QrScanPage />
+    </>
+  );
+};
 
-export default QrScan
+export default QrScan;

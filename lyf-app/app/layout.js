@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { AppProvider } from "./Context/store";
 import Navbar from "@/components/Navbar";
 import SizeChecker from "./minimumScreen/SizeChecker";
+import Chatbot from "@/components/Chatbot/components/Chatbot";
 
 export const metadata = {
   title: "Lyf App",
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
               <div className="pb-28">
                 {children}
               </div>
-
-              {/*<div>chatbot</div>*/}
+              <div className="fixed bottom-[120px] right-8 z-50">
+                  <Chatbot/>
+                </div>
               <Navbar />
             </div>
           </SizeChecker>
