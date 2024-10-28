@@ -11,7 +11,7 @@ const BlogsSection = ({ truncated = true }) => {
       <div className="flex justify-between items-center w-full mb-3">
         <h1 className="font-bold text-xl">Blogs</h1>
         {truncated && (
-          <a href="/blogs" className="underline cursor-pointer">
+          <a href="/lyf-together/blogs" className="underline cursor-pointer">
             See all
           </a>
         )}

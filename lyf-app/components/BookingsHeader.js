@@ -16,8 +16,8 @@ const BookingsHeader = () => {
           <h1 className="text-white text-2xl">
             Hey, <span className="font-bold">{user.userName}!</span>
           </h1>
-          <div className="text-white text-2xl mb-2">
-            Tell us where you want to go
+          <div className="text-white text-md my-2">
+            Tell us where do you want to go
           </div>
         </div>
         <Searchbar />
