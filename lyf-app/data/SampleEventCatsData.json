@@ -1,10 +1,10 @@
 [
   { "imageSrc": "/images/eventWorkshop.jpg",
     "imageName": "Workshop",
-    "link": "/lyf-together/event-page/workshop",
+    "link": "/event-page/workshop",
     "description": "Learn new skills, spark creativity, and connect with fellow residents through fun, interactive sessions. From crafting to coding, there's something for everyone!"
   },
-  { "imageSrc": "/images/eventFood.jpg", "imageName": "Food", "link": "/lyf-together/event-page/food" , "description" :  ""},
-  { "imageSrc": "/images/eventSport.jpg", "imageName": "Sport", "link": "/lyf-together/event-page/sport" },
-  { "imageSrc": "/images/eventPerformance.jpg", "imageName": "Performance", "link": "/lyf-together/event-page/performance",  "description" :  "" }
+  { "imageSrc": "/images/eventFood.jpg", "imageName": "Food", "link": "/event-page/food" , "description" :  "Indulge in a culinary journey! Explore a variety of flavors and cuisines through workshops, tastings, and food events. Perfect for food lovers and those eager to learn new cooking skills!"},
+  { "imageSrc": "/images/eventSport.jpg", "imageName": "Sport", "link": "/event-page/sport" , "description"  : "Get active and enjoy a day of fitness and fun! Whether you’re into team sports, solo challenges, or just trying something new, our sports events offer something for everyone."},
+  { "imageSrc": "/images/eventPerformance.jpg", "imageName": "Performance", "link": "/event-page/performance",  "description" :  "Experience the thrill of live performances! From music and dance to theater and comedy, our events showcase local talent and bring vibrant entertainment to the community." }
 ]
