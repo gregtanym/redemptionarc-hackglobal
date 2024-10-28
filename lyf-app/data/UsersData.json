@@ -10,7 +10,7 @@
         "age": "23",
         "solo": true,
         "country": "Singapore",
-        "industry": "IT",
+        "industry": "Marketing",
         "purpose": "Leisure Travel",
         "profileImg": "/images/ryannn.jpg"
     },
@@ -40,7 +40,7 @@
         "age": "19",
         "solo": true,
         "country": "Thailand",
-        "industry": "Marketing",
+        "industry": "IT",
         "purpose": "Leisure Travel",
         "profileImg": "/images/Cheryl.jpg"
     }
