@@ -2,10 +2,10 @@
 import React from "react";
 import blogData from "../data/SampleBlogsData.json";
 import Image from "next/image";
-
+import { useGlobalContext } from "@/app/Context/store";
 const BlogsSection = ({ truncated = true }) => {
   const parsedBlogData = truncated ? blogData.slice(0, 2) : blogData;
-
+  const { setNotClickableText, setOpenNotClickable } = useGlobalContext();
   return (
     <div className="flex flex-col items-center mx-4">
       <div className="flex justify-between items-center w-full mb-3">
@@ -22,6 +22,10 @@ const BlogsSection = ({ truncated = true }) => {
             <div
               className="w-full h-28 mb-4 flex justify-between rounded-2xl transition-colors duration-300 ease-in-out hover:bg-black/70 hover:text-white group cursor-pointer"
               key={index}
+              onClick={() => {
+                setNotClickableText("Click on See All to see all blogs");
+                setOpenNotClickable(true);
+              }}
             >
               <Image
                 src={blog.img}

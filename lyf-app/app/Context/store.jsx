@@ -10,6 +10,8 @@ const AppProvider = (({children}) => {
     const [booked, setBooked] = useState(false)
     const [selectedChatId, setSelectedChatId] = useState(1);
 
+    const [openNotClickable, setOpenNotClickable] = useState(false)
+    const [notClickableText, setNotClickableText] = useState("")
 
     // insert your functions here (pass it into the value attribute at the bottom)
     
@@ -20,7 +22,11 @@ const AppProvider = (({children}) => {
             setSelectedUserId,
             setSelectedChatId,
             booked,
-            setBooked
+            setBooked,
+            openNotClickable,
+            setOpenNotClickable,
+            notClickableText,
+            setNotClickableText
         }}>
             {children}
         </AppContext.Provider>

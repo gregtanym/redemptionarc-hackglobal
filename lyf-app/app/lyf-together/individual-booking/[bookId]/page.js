@@ -163,7 +163,7 @@ const Page = () => {
                                 <DialogFooter>
                                     <Button
                                         onClick={handleConfirm}
-                                        disabled={isConfirmed}
+                                        disabled={booked}
                                         className={`hover:bg-gray-800 bg-black text-white ${isConfirmed ? 'opacity-50 cursor-not-allowed' : ''}`}
                                     >
                                         {isConfirmed ? 'Confirmed' : 'Confirm'}

@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { AppProvider } from "./Context/store";
 import SizeChecker from "./minimumScreen/SizeChecker";
+import NotClickable from "@/components/NotClickable/NotClickable";
 
 export const metadata = {
   title: "Lyf App",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <AppProvider>
           <SizeChecker>
             <div className="main">{children}</div>
+            <NotClickable />
           </SizeChecker>
         </AppProvider>
       </body>
