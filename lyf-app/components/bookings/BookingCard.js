@@ -1,9 +1,6 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
-import upcomingBookings from "../../data/UpcomingBookings.json";
-import { useGlobalContext } from "@/app/Context/store";
-import UsersData from "@/data/UsersData.json";
+import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import {Bed, User, Bathtub} from "@phosphor-icons/react";

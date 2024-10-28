@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import UsersData from "../../data/UsersData.json";
-import { useGlobalContext } from "../Context/store";
 import UserTab from "@/components/UserTab";
 
 export default function Login() {

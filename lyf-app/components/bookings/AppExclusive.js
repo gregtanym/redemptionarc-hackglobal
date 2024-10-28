@@ -29,7 +29,7 @@ function AppExclusive() {
                                             </div>
                                         )}
 
-                                        <div className="py-4 px-2">
+                                        <div className="py-4 px-2 ml-2">
                                             {/* Room Type */}
                                             <div className="font-bold text-md mb-1">
                                                 {booking.roomType}
