@@ -1,15 +1,14 @@
 "use client"
 
 import React, {useEffect, useState} from 'react'
-import ResidentsStats from "@/components/residents/ResidentsStats";
+import ResidentsStats from "@/components/participants/ResidentsStats";
 import allResidentData from "../../../../../../data/SampleResidentStatsData.json"
 import {usePathname} from "next/navigation";
-import ResidentAvatarStack from "@/components/residents/residentAvatarStack";
+import ParticipantsAvatarStack from "@/components/participants/ParticipantsAvatarStack";
 import Link from "next/link";
 
 const Residents = () => {
     const path = usePathname();
-    console.log(path.split("/"));
     const eventName = decodeURIComponent(path.split("/")[5]);
     const [selectedTab, setSelectedTab] = useState(path.split("/")[3]);
     const [eventId, setEventId] = useState(path.split("/")[4]);
@@ -19,9 +18,6 @@ const Residents = () => {
         const matchedData = allResidentData.find((item) => item.eventName === eventName);
         setResidentData(matchedData || null);
     }, [eventName, allResidentData]);
-
-    console.log(selectedTab);
-    console.log(eventId);
 
     return (
         <div>
@@ -36,7 +32,7 @@ const Residents = () => {
                 <span className="ml-2 transition-transform transform group-hover:-translate-x-1">Back</span>
             </Link>
 
-            <ResidentAvatarStack eventName={eventName} eventId={eventId} selectedTab={selectedTab} />
+            <ParticipantsAvatarStack eventName={eventName} eventId={eventId} selectedTab={selectedTab} />
 
             <ResidentsStats data={residentData ? residentData.stats : {}}/>
         </div>

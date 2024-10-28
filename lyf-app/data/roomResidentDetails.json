@@ -1,0 +1,210 @@
+[
+  {
+    "roomId": 1,
+    "roomType": "One of a kind (Studio)",
+    "participants": [
+      {
+        "name": "Sophia",
+        "img": "/images/residentProfile/sophia.jpg",
+        "numPositiveReviews": "10",
+        "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Sophia brings a calming presence and is very open-minded.",
+          "Loved working on projects together, she has an eye for detail."
+        ]
+      },
+      {
+        "name": "Kelly",
+        "img": "/images/residentProfile/kelly.jpg",
+        "numPositiveReviews": "7",
+        "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+          "Wonderful to be around; she brings thoughtful perspectives."
+        ]
+      },
+      {
+        "name": "James",
+        "img": "/images/residentProfile/james.jpg",
+        "numPositiveReviews": "12",
+        "description": "Nature lover and hiking enthusiast. Excited to meet like-minded people!",
+        "badges": ["/images/badges/friendlyBadge.svg", "/images/badges/10EventBadge.svg"],
+        "reviews": [
+          "James is great company and very knowledgeable about sustainability.",
+          "Had amazing conversations with James about eco-friendly practices."
+        ]
+      },
+      {
+        "name": "Mia",
+        "img": "/images/residentProfile/mia.jpg",
+        "numPositiveReviews": "17",
+        "description": "Tech enthusiast and engineer with a passion for innovation.",
+        "badges": ["/images/badges/friendlyBadge.svg","/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "Mia is very knowledgeable and eager to share tech insights.",
+          "Great conversations about future tech and innovations."
+        ]
+      },
+      {
+        "name": "Daniel",
+        "img": "/images/residentProfile/daniel.jpg",
+        "numPositiveReviews": "12",
+        "description": "Software engineer exploring new tech.",
+        "badges": ["/images/badges/friendlyBadge.svg","/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "Daniel brings interesting ideas to the table and is open-minded.",
+          "Very insightful and always eager to discuss new technologies."
+        ]
+      }
+    ]
+  },
+  {
+    "roomId": 2,
+    "roomType": "Lyf Style (Thematic Studio)",
+    "participants": [
+      {
+        "name": "Peter",
+        "img": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+        "numPositiveReviews": "12",
+        "description": "Nature lover and hiking enthusiast. Excited to meet like-minded people!",
+        "badges": ["/images/badges/friendlyBadge.svg" , "/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "James is great company and very knowledgeable about sustainability.",
+          "Had amazing conversations with James about eco-friendly practices."
+        ]
+      },
+      {
+        "name": "Mary",
+        "img": "https://images.unsplash.com/photo-1580489944761-15a19d654956",
+        "numPositiveReviews": "10",
+        "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Mary brings a calming presence and is very lovely.",
+          "Amazing!!"
+        ]
+      },
+      {
+        "name": "Ava",
+        "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+        "numPositiveReviews": "10",
+        "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Ava brings a calming presence and is very open-minded.",
+          "Loved working on projects together, she has an eye for detail."
+        ]
+      },
+      {
+        "name": "Cheryl",
+        "img": "/images/residentProfile/cheryl.jpg",
+        "badge": ["/images/badges/5eventsBadge.svg" , "/images/badges/friendlyBadge.svg"],
+        "numPositiveReviews": "8",
+        "description": "Hi everyone, I love reading and going for an adventure!",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Cheryl was a very friendly and caring fellow resident. Very easy going and easy to talk to!",
+          "Friendly and nice to chat along. Very fun to be with"
+        ]
+      },
+      {
+        "name": "Sophia",
+        "img": "/images/residentProfile/sophia.jpg",
+        "numPositiveReviews": "10",
+        "description": "Art enthusiast who loves exploring creativity and emotions through art.",
+        "badges": ["/images/badges/friendlyBadge.svg", "/images/badges/10EventBadge.svg"],
+        "reviews": [
+          "Sophia brings a calming presence and is very open-minded.",
+          "Loved working on projects together, she has an eye for detail."
+        ]
+      },
+      {
+        "name": "Kelly",
+        "img": "/images/residentProfile/kelly.jpg",
+        "numPositiveReviews": "7",
+        "description": "Art therapy enthusiast, exploring emotions and self-expression.",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Kelly is patient and insightful. Great to discuss art therapy techniques.",
+          "Wonderful to be around; she brings thoughtful perspectives."
+        ]
+      }
+    ]
+  },
+  {
+    "roomId": 3,
+    "roomType": "Up and Down (Studio)",
+    "eventName": "Wine Tasting",
+    "participants": [
+      {
+        "name": "Tom",
+        "img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61",
+        "numPositiveReviews": "15",
+        "description": "Wine aficionado and lover of fine arts.",
+        "badges": ["/images/badges/friendlyBadge.svg", "/images/badges/5EventBadge.svg"],
+        "reviews": [
+          "Tom has an amazing palate and was a joy to discuss wines with.",
+          "Very knowledgeable and passionate about wine."
+        ]
+      },
+      {
+        "name": "Robert",
+        "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+        "numPositiveReviews": "9",
+        "description": "Food and wine enthusiast, always looking for new flavors.",
+        "badges": [ "/images/badges/5EventBadge.svg"],
+        "reviews": [
+          "Robert has a great sense of humor and was fun to talk to.",
+          "He brought great insights into food and wine pairing."
+        ]
+      },
+      {
+        "name": "Isabella",
+        "img": "/images/residentProfile/Isabella.jpg",
+        "numPositiveReviews": "10",
+        "description": "Vegan chef with a love for plant-based dishes.",
+        "badges": ["/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "Isabella is very inspiring and has a great talent for cooking.",
+          "Learned a lot from her about vegan cooking."
+        ]
+      },
+      {
+        "name": "Cheryl",
+        "img": "/images/residentProfile/cheryl.jpg",
+        "badge": ["/images/badges/5eventsBadge.svg" , "/images/badges/friendlyBadge.svg"],
+        "numPositiveReviews": "8",
+        "description": "Hi everyone, I love reading and going for an adventure!",
+        "badges": ["/images/badges/friendlyBadge.svg"],
+        "reviews": [
+          "Cheryl was a very friendly and caring fellow resident. Very easy going and easy to talk to!",
+          "Friendly and nice to chat along. Very fun to be with"
+        ]
+      },
+      {
+        "name": "Ethan",
+        "img": "/images/residentProfile/ethan.jpg",
+        "numPositiveReviews": "8",
+        "description": "Meditation enthusiast, exploring mindfulness and relaxation.",
+        "badges": ["/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "Ethan is a great listener and very helpful during meditation.",
+          "Had a wonderful, peaceful time thanks to him."
+        ]
+      },
+      {
+        "name": "Mia",
+        "img": "/images/residentProfile/mia.jpg",
+        "numPositiveReviews": "17",
+        "description": "Tech enthusiast and engineer with a passion for innovation.",
+        "badges": ["/images/badges/friendlyBadge.svg","/images/badges/volunteerBadge.svg"],
+        "reviews": [
+          "Mia is very knowledgeable and eager to share tech insights.",
+          "Great conversations about future tech and innovations."
+        ]
+      }
+    ]
+  }
+]

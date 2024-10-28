@@ -1,25 +1,39 @@
 [
   {
     "id": 1,
-    "roomType": "Lyf Style (Thematic Studio)",
-    "bedType" : "1 Queen-size bed",
-    "pax": "Max 2 pax",
-    "bathroom": "1 Bathroom",
-    "price": "USD 148.35",
-    "roomImg": "/images/rooms/lyfStyle.png",
-    "accessibility": "Accessible room upon request",
-    "bathroomOthers": "Bathroom with a separate shower"
-  },
-  {
-    "id": 2,
     "roomType": "One of a kind (Studio)",
     "bedType" : "1 Queen-size bed",
     "pax": "Max 2 pax",
     "bathroom": "1 Bathroom",
     "price": "USD 148.35",
     "roomImg": "/images/rooms/oneOfAKind.png",
+    "description": "Perfect for the couple that likes to snuggle, or for the individual who enjoys having his or her own space. Combining all the best elements of home with the modern and trendy amenities of a shared living space, One of a Kind is an ideal choice for travellers who are on the lookout for a co living space in Singapore.",
     "accessibility": "Accessible room upon request",
-    "bathroomOthers": "Bathroom with a separate shower"
+    "bathroomOthers": "Bathroom with a separate shower",
+    "services": [
+      "Wireless internet connectivity (WiFi)",
+      "Air-conditioning with individually controlled thermostats",
+      "Mobile Key Access",
+      "Electric kettle"
+    ]
+  },
+  {
+    "id": 2,
+    "roomType": "Lyf Style (Thematic Studio)",
+    "bedType" : "1 Queen-size bed",
+    "pax": "Max 2 pax",
+    "bathroom": "1 Bathroom",
+    "price": "USD 148.35",
+    "roomImg": "/images/rooms/lyfStyle.png",
+    "description" : "Who ever said a studio apartment in Singapore has to be boring and one dimensional? This gaming-themed room is equipped with a PlayStation game console and designed for the ultimate dusk-to-dawn gaming experience. Tired? Pull down the bed for a power nap or grab a quick shower in the ensuite bathroom. Don’t be surprised if neighbours start to drop by and hang out with you over a game; we create the best Singapore coliving experience!",
+    "accessibility": "Accessible room upon request",
+    "bathroomOthers": "Bathroom with a separate shower",
+    "services": [
+      "Wireless internet connectivity (WiFi)",
+      "Air-conditioning with individually controlled thermostats",
+      "Mobile Key Access",
+      "Electric kettle"
+    ]
   },
   {
     "id": 3,
@@ -28,8 +42,15 @@
     "pax": "Max 2 pax",
     "bathroom": "1 Bathroom",
     "price": "USD 200.35",
+    "description": "Do you love travelling with friends but still want the bed space to sprawl? This room provides both of you that spatial freedom, moonlight me-time, and the cosy comforts of co living spaces in Singapore, without the loneliness. The perfect bunk studio in Singapore to share with your travel companion.",
     "roomImg": "/images/rooms/upAndDown.png",
     "accessibility": "Accessible room upon request",
-    "bathroomOthers": "Bathroom with a separate shower"
+    "bathroomOthers": "Bathroom with a separate shower",
+    "services": [
+      "Wireless internet connectivity (WiFi)",
+      "Air-conditioning with individually controlled thermostats",
+      "Mobile Key Access",
+      "Electric kettle"
+    ]
   }
 ]

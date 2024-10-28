@@ -1,0 +1,35 @@
+[
+  {
+    "roomId": 1,
+    "stats": {
+      "genderRatio": { "male": 64, "female": 36 },
+      "ageDistribution": { ">35": 36, "26-35": 43, "18-25": 21 },
+      "soloTravelers": { "solo": 79, "nonSolo": 21 },
+      "countryDistribution": { "Singapore": 36, "Australia": 43, "China": 21 },
+      "industry": { "IT": 36, "Finance": 43, "Gas": 21 },
+      "purposeOfStay": { "Business trip": 42, "Travel": 37, "Leisure": 21 }
+    }
+  },
+  {
+    "roomId": 2,
+    "stats": {
+      "genderRatio": { "male": 45, "female": 55 },
+      "ageDistribution": { ">35": 20, "26-35": 50, "18-25": 30 },
+      "soloTravelers": { "solo": 60, "nonSolo": 40 },
+      "countryDistribution": { "Japan": 50, "Korea": 30, "Singapore": 20 },
+      "industry": { "Art": 50, "Education": 30, "Finance": 20 },
+      "purposeOfStay": { "Workshop": 40, "Leisure": 35, "Networking": 25 }
+    }
+  },
+  {
+    "roomId": 3,
+    "stats": {
+      "genderRatio": { "male": 40, "female": 60 },
+      "ageDistribution": { ">35": 60, "26-35": 30, "18-25": 10 },
+      "soloTravelers": { "solo": 20, "nonSolo": 80 },
+      "countryDistribution": { "Australia": 50, "France": 30, "Italy": 20 },
+      "industry": { "Hospitality": 45, "Food & Beverage": 35, "Marketing": 20 },
+      "purposeOfStay": { "Leisure": 60, "Networking": 30, "Business": 10 }
+    }
+  }
+]

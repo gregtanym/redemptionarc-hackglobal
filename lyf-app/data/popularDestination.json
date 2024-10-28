@@ -1,0 +1,9 @@
+[
+  { "imageSrc": "/images/locations/australia.png",
+    "imageName": "Australia",
+    "link": "*"
+  },
+  { "imageSrc": "/images/locations/singapore.png", "imageName": "Singapore", "link": "*" },
+  { "imageSrc": "/images/locations/qatar.png", "imageName": "Qatar", "link": "*"},
+  { "imageSrc": "/images/locations/ireland.png", "imageName": "Ireland", "link": "*"}
+]

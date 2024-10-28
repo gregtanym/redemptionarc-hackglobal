@@ -43,7 +43,7 @@ const Events = () => {
                         </DialogTrigger>
                     </div>
 
-                    <DialogContent className="w-full max-w-[90%] sm:max-w-[600px] mx-auto px-4">
+                    <DialogContent className="w-full max-w-[90%] sm:max-w-[600px] mx-auto px-4 rounded-[10px]">
                         <DialogHeader>
                             <DialogTitle>Create Event</DialogTitle>
                         </DialogHeader>
