@@ -33,12 +33,6 @@
                         "content": "Hi Ryan! Welcome to the Lyf community",
                         "username": "Jackson Lee",
                         "image_url": "/images/residentProfile/david.jpg"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Ryan Loh",
-                        "image_url": "/images/ryannn.jpg"
                     }
                 ]
             },
@@ -73,12 +67,6 @@
                         "content": "Hi Ryan! How long have you been in the business of marketing?",
                         "username": "Jackson Lee",
                         "image_url": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Ryan Loh",
-                        "image_url": "/images/ryannn.jpg"
                     }
                 ]
             },
@@ -113,12 +101,6 @@
                         "content": "Hi Ryan! This week Lyf is having a board games night. You wanna check it out together?",
                         "username": "Jackson Lee",
                         "image_url": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Ryan Loh",
-                        "image_url": "/images/ryannn.jpg"
                     }
                 ]
             }
@@ -158,12 +140,6 @@
                         "content": "Hi Greg! Are you bullish on the new memecoin released by Kanye West?",
                         "username": "Jackson Lee",
                         "image_url": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Greg Tan",
-                        "image_url": "/images/Greg.jpg"
                     }
                 ]
             },
@@ -198,12 +174,6 @@
                         "content": "Hi Greg! Are you looking to raise venture capital for your business?",
                         "username": "Jackson Lee",
                         "image_url": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Greg Tan",
-                        "image_url": "/images/Greg.jpg"
                     }
                 ]
             }
@@ -243,12 +213,6 @@
                         "content": "Hi Cheryl! Welcome to the Lyf community",
                         "username": "Jackson Lee",
                         "image_url": "https://via.placeholder.com/150"
-                    },
-                    {
-                        "isMe": true,
-                        "content": "Hi everyone! thanks for the warm welcome :)",
-                        "username": "Cheryl Lim",
-                        "image_url": "/images/Cheryl.jpg"
                     }
                 ]
             },
