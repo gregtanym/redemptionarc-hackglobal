@@ -15,22 +15,23 @@ const Page = () => {
     const pathName = usePathname();
     const [event, setEvent] = useState(null);
     const [participants, setParticipants] = useState([]);
+    const [selectedTab, setSelectedTab] = useState(pathName.split("/")[2]);
 
     useEffect(() => {
         const idx = parseInt(pathName.split("/")[3]);
-        const selectedTab = pathName.split("/")[2];
 
         const filteredEvents = EventDetails
             .filter((item) => item["tab"] === selectedTab)
             .flatMap((item) => item["events"])
             .filter((event) => event["id"] === idx);
 
-        setEvent(filteredEvents[0]);
-
         const residentsParticipating = residentData.find(resEvent => resEvent.eventName === filteredEvents[0].name);
-        setParticipants(residentsParticipating);
 
+        setParticipants(residentsParticipating);
+        setEvent(filteredEvents[0]);
     }, [pathName]);
+
+    console.log(selectedTab);
 
     return (
         <div>
@@ -107,14 +108,14 @@ const Page = () => {
                             </div>
 
                             {/*To residents*/}
-                            <Link href={`/lyf-together/residents/${event.name}`}>
+                            <Link href={`/lyf-together/residents/${selectedTab}/${event.id}/${event.name}`}>
                                 <p className="hover:underline hover:cursor-pointer text-sm text-black">Meet the
                                     residents</p>
                             </Link>
 
                         </div>
 
-                        <Button className="mt-4 bg-black text-white rounded-[50px] w-full h-14 hover:bg-gray-900">
+                        <Button className="mt-4 bg-black text-white rounded-[50px] w-full h-14 hover:bg-gray-800">
                             Join now
                         </Button>
                     </div>

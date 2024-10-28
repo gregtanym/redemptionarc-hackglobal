@@ -2,15 +2,21 @@ import React, {useEffect, useState} from 'react';
 import Link from "next/link";
 import residentData from "../../data/SampleResidentDetailsData.json";
 
-function ResidentAvatarStack(eventName) {
+function ResidentAvatarStack({ eventName, eventId, selectedTab }) {
+    console.log(selectedTab);
+    console.log(eventId);
+
     const [participants, setParticipants] = useState([]);
 
     useEffect(() => {
-        const residentsParticipating = residentData.find(resEvent => resEvent.eventName === eventName.eventName);
+        const residentsParticipating = residentData.find(resEvent => resEvent.eventName === eventName);
 
-        console.log(residentsParticipating);
-
-        setParticipants(residentsParticipating.participants);
+        if (residentsParticipating) {
+            setParticipants(residentsParticipating.participants);
+            console.log("Participants:", residentsParticipating.participants);
+        } else {
+            console.warn("No participants found for this event");
+        }
 
     }, [eventName]);
 
@@ -36,7 +42,7 @@ function ResidentAvatarStack(eventName) {
                 )}
             </div>
 
-            <Link href={`/lyf-together/residents-details/${eventName.eventName}`}>
+            <Link href={`/lyf-together/residents-details/${selectedTab}/${eventId}/${eventName}`}>
                 <span className="hover:underline hover:cursor-pointer text-sm font-semibold text-gray-700 hover:text-black">
                     See all participants
                 </span>
