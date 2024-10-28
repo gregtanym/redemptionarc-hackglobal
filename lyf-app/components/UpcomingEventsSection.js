@@ -3,13 +3,17 @@ import React from "react";
 import eventData from "../data/SampleEventsData.json";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
+import { useGlobalContext } from "@/app/Context/store";
 
 const UpcomingEventsSection = () => {
+  const { setNotClickableText, setOpenNotClickable } = useGlobalContext();
   return (
     <div className="flex flex-col items-center">
       <div className="flex justify-between items-center w-full mb-3 mt-4">
         <h1 className="font-bold text-xl ml-4">My Upcoming Events</h1>
-        <div className="underline cursor-pointer mr-4">See all</div>
+        <a href="lyf-together/events" className="underline cursor-pointer mr-4">
+          See all
+        </a>
       </div>
 
       <div className="w-full">
@@ -20,7 +24,14 @@ const UpcomingEventsSection = () => {
           });
           const day = eventDate.getDate();
           return (
-            <div className="flex w-full h-44 items-start" key={index}>
+            <div
+              onClick={() => {
+                setNotClickableText("Click on See All to see all events");
+                setOpenNotClickable(true);
+              }}
+              className="flex w-full h-44 items-start"
+              key={index}
+            >
               <div className="flex flex-col items-center ml-4">
                 <div className="bg-white flex flex-col justify-center items-center border border-date-card-border h-12 w-12 rounded-lg p-3">
                   <div className=" uppercase text-sm">{month}</div>
