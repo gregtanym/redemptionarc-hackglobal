@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import SearchIcon from "@/components/icons/SearchIcon";
 import { Mic } from "lucide-react";
 import AudioRecorder from "./AudioRecorder";
-const ChatInput = ({ sendButtonPressed, isNextChatLoading }) => {
+const ChatInput = ({ sendButtonPressed, isNextChatLoading, className }) => {
   const [input, setInput] = useState("");
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
 
   return (
-    <div className="relative max-w-[351px]">
+    <div className={`${className} relative max-w-[351px] `}>
       <div className="px-[15px] pb-[20px]">
         <div className=" w-[100%] drop-shadow-lg h-fit flex items-center border-gray-300 border-[1px] rounded-xl bg-white">
           <input

@@ -9,7 +9,11 @@ const UserTab = ({ userId, userName }) => {
   const handleOnClick = () => {
     console.log(userId);
     setSelectedUserId(userId);
-    router.push("/lyf-together"); // navigate to '/lyf-together'
+    if (userId === 3) {
+      router.push("/new-user");
+    } else {
+      router.push("/lyf-together"); // navigate to '/lyf-together'
+    }
   };
   return (
     <div

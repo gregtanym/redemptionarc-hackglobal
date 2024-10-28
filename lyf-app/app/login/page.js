@@ -4,7 +4,6 @@ import UsersData from "../../data/UsersData.json";
 import UserTab from "@/components/UserTab";
 
 export default function Login() {
-  console.log(UsersData);
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
       <img src="/icons/Logo.svg"></img>

@@ -9,7 +9,7 @@ import {
   AlertDialog,
   AlertDialogContent,
   AlertDialogTrigger,
-  AlertDialogTitle
+  AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 
 import {
@@ -33,7 +33,6 @@ import ChatInput from "./chatbotComponents/ChatInput";
 export default function Chatbot() {
   const [language, setLanguage] = React.useState("english");
   const [open, setOpen] = useState(false);
-  //   const [trigger, { data: chatData, isError }] = useLazyGetChatQuery();
   const [isNextChatLoading, setIsNextChatLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const [chatArray, setChatArray] = useState([]);
@@ -44,7 +43,10 @@ export default function Chatbot() {
     });
     // trigger({ query: text, language: language });
     setChatArray((prevChatArray) => {
-      return [...prevChatArray, { isMe: false, content: 'This chat is purely for demo purposes!' }];
+      return [
+        ...prevChatArray,
+        { isMe: false, content: "This chat is purely for demo purposes!" },
+      ];
     });
     // setIsNextChatLoading(true);
   };
@@ -129,7 +131,6 @@ export default function Chatbot() {
       </AlertDialogTrigger>
       <AlertDialogContent className="bg-white max-w-[351px] p-[0px] border rounded-lg">
         <div className="flex justify-center max-w-[351px] items-center border rounded-lg bg-[#171924] relative py-[29px] ">
-
           <h2 className="text-white  text-bold text-[18px] max-w-[210px] text-center">
             {renderHeading()}
           </h2>
@@ -147,7 +148,9 @@ export default function Chatbot() {
         <ScrollArea className="mb-2 h-80 w-full text-black max-w-[351px]">
           {chatArray.length == 0 ? (
             <div className="text-[#BAB9B9] mt-[5px]  mx-auto text-center max-w-[284px]">
-              <AlertDialogTitle className="font-bold text-[18px] ">{renderHeading()}</AlertDialogTitle>
+              <AlertDialogTitle className="font-bold text-[18px] ">
+                {renderHeading()}
+              </AlertDialogTitle>
               <p className="text-[15px] my-3">{renderParagraph()}</p>
               <ChatOptions
                 options={renderOptions()}

@@ -21,7 +21,7 @@ const Page = () => {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(!open);
     const [isConfirmed, setIsConfirmed] = useState(false);
-    const { setBooked } = useGlobalContext();
+    const { booked, setBooked } = useGlobalContext();
 
     useEffect(() => {
         const temp = appExclusive.find((item) => item.id === Number(bookId));
@@ -35,6 +35,7 @@ const Page = () => {
         setIsConfirmed(true);
         setBooked(true);
     };
+
 
     return (
         <div>
