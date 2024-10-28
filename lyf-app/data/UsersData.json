@@ -11,7 +11,8 @@
         "solo": true,
         "country": "Singapore",
         "industry": "IT",
-        "purpose": "Leisure Travel"
+        "purpose": "Leisure Travel",
+        "profileImg": "/images/ryannn.jpg"
     },
     {
         "userId": 2,
@@ -25,13 +26,14 @@
         "solo": false,
         "country": "Canada",
         "industry": "Finance",
-        "purpose": "Business"
+        "purpose": "Business",
+        "profileImg": "/images/Greg.jpg"
     },
     {
         "userId": 3,
         "userName": "Cheryl Lim",
         "bio": "Lyf is my home",
-        "badgeIds": [1,2,3],
+        "badgeIds": [1,3],
         "bookingIds": [5],
         "eventIds": [1,2,4],
         "gender": "female",
@@ -39,6 +41,7 @@
         "solo": true,
         "country": "Thailand",
         "industry": "Marketing",
-        "purpose": "Leisure Travel"
+        "purpose": "Leisure Travel",
+        "profileImg": "/images/Cheryl.jpg"
     }
 ]

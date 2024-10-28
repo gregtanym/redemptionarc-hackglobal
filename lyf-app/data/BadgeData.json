@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Organised a Lyf Event",
+        "badgeImg": "/icons/Badge1.svg"
+    },
+    {
+        "id": 2,
+        "title": "Participated in 10 events",
+        "badgeImg": "/icons/Badge2.svg"
+    },
+    {
+        "id": 3,
+        "title": "Participated in 5 events",
+        "badgeImg": "/icons/Badge3.svg"
+    }
+]

@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link href="/lyf-together">
           <div
             className={`${
-              isActive("/") ? "text-white" : "text-navbar-inactive"
+              isActive("/lyf-together") ? "text-white" : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
           >
             <Compass
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link href="/lyf-together/events">
           <div
             className={`${
-              isActive("/events") || isStartsWith("/roadmap/")
+              isActive("/lyf-together/events")
                 ? "bg-website-red text-white rounded-lg"
                 : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
@@ -51,7 +51,7 @@ const Navbar = () => {
         <Link href="/lyf-together/bookings">
           <div
             className={`${
-              isActive("/bookings")
+              isActive("/lyf-together/bookings")
                 ? "bg-website-red text-white rounded-lg"
                 : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
@@ -66,7 +66,7 @@ const Navbar = () => {
         <Link href="/lyf-together/qr-scan">
           <div
             className={`${
-              isActive("/qr-scan")
+              isActive("/lyf-together/qr-scan")
                 ? "bg-website-red text-white rounded-lg"
                 : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
@@ -81,7 +81,7 @@ const Navbar = () => {
         <Link href="/lyf-together/chat">
           <div
             className={`${
-              isActive("/chat")
+              isActive("/lyf-together/chat")
                 ? "bg-website-red text-white rounded-lg"
                 : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
@@ -96,7 +96,7 @@ const Navbar = () => {
         <Link href="/lyf-together/profile">
           <div
             className={`${
-              isActive("/profile")
+              isActive("/lyf-together/profile")
                 ? "bg-website-red text-white rounded-lg"
                 : "text-navbar-inactive"
             } w-15 flex flex-col items-center transition-transform duration-300 ease-in-out hover:scale-110`}
