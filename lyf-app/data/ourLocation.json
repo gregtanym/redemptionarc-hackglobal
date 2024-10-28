@@ -1,0 +1,9 @@
+[
+  { "imageSrc": "/images/locations/hangZhou.png",
+    "imageName": "Mid Town HangZhou",
+    "link": "*"
+  },
+  { "imageSrc": "/images/locations/ginza.png", "imageName": "Ginza", "link": "/event-page/food" },
+  { "imageSrc": "/images/locations/funan.png", "imageName": "Funan", "link": "/event-page/sport"},
+  { "imageSrc": "/images/locations/collingWood.png", "imageName": "Collingwood", "link": "/event-page/performance"}
+]

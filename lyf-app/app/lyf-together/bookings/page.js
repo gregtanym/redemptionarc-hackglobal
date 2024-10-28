@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import BookingsHeader from "@/components/BookingsHeader";
 import UpcomingBookings from "@/components/bookings/UpcomingBookings";
@@ -10,7 +12,7 @@ const Bookings = () => {
     <div className="w-full">
       <BookingsHeader />
 
-      <div className="mt-4 ml-4">
+      <div className="mt-4">
         {/*My upcoming bookings*/}
         <UpcomingBookings/>
 
@@ -19,6 +21,7 @@ const Bookings = () => {
 
         {/*Our Locations*/}
         <LocationsSection/>
+
 
         {/*Popular Destinations*/}
         <PopularDestination/>

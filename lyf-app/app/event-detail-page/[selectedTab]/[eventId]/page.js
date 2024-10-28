@@ -31,8 +31,6 @@ const Page = () => {
         setEvent(filteredEvents[0]);
     }, [pathName]);
 
-    console.log(selectedTab);
-
     return (
         <div>
             {event ? (
@@ -107,7 +105,7 @@ const Page = () => {
                                 <AvatarStack participants={participants}/>
                             </div>
 
-                            {/*To residents*/}
+                            {/*To participants*/}
                             <Link href={`/lyf-together/residents/${selectedTab}/${event.id}/${event.name}`}>
                                 <p className="hover:underline hover:cursor-pointer text-sm text-black">Meet the
                                     residents</p>
