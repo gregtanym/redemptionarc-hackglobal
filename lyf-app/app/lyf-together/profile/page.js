@@ -18,7 +18,8 @@ import {
 import Link from "next/link";
 
 const Profile = () => {
-  const { selectedUserId } = useGlobalContext();
+  const { selectedUserId, setNotClickableText, setOpenNotClickable } =
+    useGlobalContext();
   const user = UsersData.find((user) => user.userId === selectedUserId);
 
   console.log("this is the selected id: ", selectedUserId);
@@ -56,7 +57,15 @@ const Profile = () => {
           <div className="font-semibold">Settings</div>
           <div className="w-full flex flex-col justify-start">
             {/* My account tab */}
-            <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
+            <div
+              onClick={() => {
+                setNotClickableText(
+                  "Sorry none of your privacy settings are clickable, this is for demo purposes only!"
+                );
+                setOpenNotClickable(true);
+              }}
+              className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl"
+            >
               <div className="flex items-center">
                 <UserCircle
                   size={28}
@@ -77,7 +86,15 @@ const Profile = () => {
               </div>
             </div>
             {/* Privacy tab */}
-            <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
+            <div
+              onClick={() => {
+                setNotClickableText(
+                  "Sorry none of your privacy settings are clickable, this is for demo purposes only!"
+                );
+                setOpenNotClickable(true);
+              }}
+              className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl"
+            >
               <div className="flex items-center">
                 <Lock
                   size={28}
@@ -118,7 +135,15 @@ const Profile = () => {
             </div>
             {/* Log out */}
             <Link href="/login">
-              <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
+              <div
+              onClick={() => {
+                setNotClickableText(
+                  "Sorry none of your privacy settings are clickable, this is for demo purposes only!"
+                );
+                setOpenNotClickable(true);
+              }}
+              className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl"
+            >
                 <div className="flex items-center">
                   <SignOut
                     size={28}
@@ -148,7 +173,15 @@ const Profile = () => {
                   size={28}
                   className="text-gray-500 group-hover:text-white"
                 />
-                <div className="mx-3">
+                <div
+                  onClick={() => {
+                    setNotClickableText(
+                      "Sorry none of your privacy settings are clickable, this is for demo purposes only!"
+                    );
+                    setOpenNotClickable(true);
+                  }}
+                  className="mx-3"
+                >
                   <div className="group-hover:text-white">Help & Support</div>
                 </div>
               </div>
@@ -160,7 +193,15 @@ const Profile = () => {
               </div>
             </div>
             {/* About App tab */}
-            <div className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl">
+            <div
+              onClick={() => {
+                setNotClickableText(
+                  "Sorry none of your privacy settings are clickable, this is for demo purposes only!"
+                );
+                setOpenNotClickable(true);
+              }}
+              className="w-full flex items-center justify-between my-2 cursor-pointer hover:bg-black hover:opacity-85 p-4 group rounded-xl"
+            >
               <div className="flex items-center">
                 <Heart
                   size={28}
