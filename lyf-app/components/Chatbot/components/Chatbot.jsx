@@ -45,7 +45,7 @@ export default function Chatbot() {
     setChatArray((prevChatArray) => {
       return [
         ...prevChatArray,
-        { isMe: false, content: "This chat is purely for demo purposes!" },
+        { isMe: false, content: "Thank you for your feedback, your response has been recorded." },
       ];
     });
     // setIsNextChatLoading(true);
